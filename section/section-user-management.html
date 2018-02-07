@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<link rel="shortcut icon" href="assets/img/maxpay.ico" type="image/x-icon">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/menu.css">
+		<link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Francois+One&amp;subset=latin-ext" rel="stylesheet">
+		
+</head>
+
+<body>
+
+<br>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <ul class="nav nav-pills nav-stacked admin-menu">
+                <li><a href="section-gate.html"><i class="fa fa-lg fa-fw fa-cube"></i>Gate</a></li>
+				<li class="selected"><a href="#" class="select"><i class="fa fa-lg fa-fw fa-user"></i>User Management</a></li>
+                <li><a href="section-reports.html"><i class="fa fa-lg fa-fw fa-th-list"></i>Reports</a></li>
+                <li><a href="section-mms.html"><i class="fa fa-lg fa-fw fa-maxcdn"></i>Mms</a></li>
+                <li><a href="section-hpp.html"><i class="fa fa-lg fa-fw fa-retweet"></i>Hpp</a></li>
+                <li><a href="section-shared-tokens.html"><i class="fa fa-lg fa-fw fa-retweet"></i>Shared Tokens</a></li>
+                <li><a href="section-routes.html"><i class="fa fa-lg fa-fw fa-recycle"></i>Routes</a></li>
+                <li><a href="section-cascading.html"><i class="fa fa-lg fa-fw fa-share-alt"></i>Cascading</a></li>
+                <li><a href="section-references.html"><i class="fa fa-lg fa-fw fa-arrows-alt"></i>References</a></li>
+				<li><a href="section-tools.html"><i class="fa fa-lg fa-fw fa-cogs"></i>Tools</a></li>
+                <li><a href="section-logs.html"><i class="fa fa-lg fa-fw fa-calendar"></i>Logs</a></li>
+            </ul>
+        </div>
+		
+		
+		<!--User management section-->
+        <div class="col-md-9 well admin-content" id="user">
+             <div class="img-top-user"><img src="assets/img/user.jpg" class="img-responsive center-block"></div>
+				<!-- WAY -->
+				<div class="div-way"><span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> User Management</span></div>
+			 <br><br>
+			<!-- H2 -->
+			<h2><i class="fa fa-user"></i> User Management</h2>	
+			<!-- INTRO TEXT -->
+			<div class="desc">
+				<p class="text-header">
+					In the admin portal, each user is uniquely identified with a username, password, and profile. Together with other settings, the profile determines which tasks the user can perform, what data the user can see, and what they can do with it. The User Managment section lets the administrator create and manage users, merchant groups, and set roles. You can also view any user session from the Admin Panel. (You can find more information about tracking user sessions <span class="link"><i class="fa fa-hand-o-right"></i><a href="assets/pages/logs/logs-history.html"> here </a></span>).
+				</p>
+			</div>
+			<br>
+			<!-- AFT INTRO TEXT -->
+				<hr class="line">
+			
+			<!-- Submenu -->	
+			<div class="sub"><span class="submenu"><i class="fa fa-share"></i> Submenu </span></div>
+			 <br>
+			 <!-- USER -->
+			 <h3><i class="fa fa-user"></i> User</h3>
+			 <div class="desc">
+				<p class="text-header">
+							A user is a person who has an account in the admin portal system. Every user has their own unique identifier that is set at the time the account is created and includes a username, first name, last name, email and their roles.
+				</p><br>
+				
+				<!-- INFO -->
+				<div class="info" id="info">
+					<a href="assets/pages/user-management/user-management-user.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
+						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
+						onmouseout="this.style.backgroundColor='#5FB9EF';">
+						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
+					</a>
+				</div><br>
+			 </div>
+				<hr class="subhr">
+					<br>
+				 <!-- Role -->
+			<h3><i class="fa fa-user"></i> Role</h3>	 
+			 <div class="desc">
+				<p class="text-header">
+							Roles are used to manage permissions to the functions that can be performed in the portal. Roles can be granted permission to perform various functions within all gateways, a particular gateway, with a merchant, or on an account. Roles are basically just a collection of permissions that define the allowed functions, such as Merchant Administrator, etc. 
+				</p><br>
+				<!-- INFO -->
+				<div class="info" id="info">
+					<a href="assets/pages/user-management/user-management-role.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
+						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
+						onmouseout="this.style.backgroundColor='#5FB9EF';">
+						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
+					</a>
+				</div><br>
+			 </div>	
+				<hr class="subhr">
+					<br>
+			 <!-- Merchant group -->
+			<h3><i class="fa fa-user-md"></i> Merchant Group</h3>	 
+			 <div class="desc">
+				<p class="text-header">
+							A Merchant Group is a set of merchants who are connected in some way. In the Merchant Groups section, you can create groups which allow users to view the statistics report of the group without having to select each merchant separately.
+				</p><br>
+				<!-- INFO -->
+				<div class="info" id="info">
+					<a href="assets/pages/user-management/user-management-merchant-group.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
+						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
+						onmouseout="this.style.backgroundColor='#5FB9EF';">
+						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
+					</a>
+				</div><br>
+			 </div><br> 
+        </div>
+	</div>
+</div>	
+
+
+<footer class="container-fluid text-center">
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-9 text-center">
+		</div>
+	</div>	
+</footer>    
+
+</body>
+</html>		

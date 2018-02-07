@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Merchant</title>
+
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../../css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/bootstrap.min.js"></script>
+		<script src="../../js/menu.js"></script>
+		<script type="text/javascript" src="../../js/pageUP.js"></script>
+		<link rel="shortcut icon" href="../../img/maxpay.ico" type="image/x-icon">
+		<link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+		<link rel="stylesheet" href="../../css/style.css">
+		
+		
+	</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				
+				<li><a href="../../../section-mms.html" title="Back to Mms section" onmouseover="this.style.color='#5356ac';" 
+				onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-long-arrow-left"></i></a></li>	
+				
+			
+				<li><a href="../../../../tutorial.html" title="Home"
+				onmouseover="this.style.color='#5356ac';" onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-home"></i></a></li>
+				
+				<li><a href="#" onclick="openNav()" title="Menu" onmouseover="this.style.color='#5356ac';" onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-bars"></i></a></li>
+			</ul>
+		</div>
+		
+		<div id="mySidenav" class="sidenav"><br>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" title="Close">&times;</a>
+					
+					<!-- Gate-->
+					<a href="../../../section-gate.html" title="Gate"><i class="fa fa-lg fa-fw fa-cube"></i> Gate </a>
+					<!-- User Management -->
+					<a href="../../../section-user-management.html"  title="User Management"><i class="fa fa-lg fa-fw fa-user"></i>User Management </a>
+					<!-- Reports -->
+					<a href="../../../section-reports.html"  title="Reports"><i class="fa fa-lg fa-fw fa-th-list"></i> Reports </a>					
+					<!-- MMS -->				
+					<a href="../../../section-mms.html"  title="Mms"><i class="fa fa-lg fa-fw fa-maxcdn"></i> Mms </a>				
+					<!-- HPP -->					
+					<a href="../../../section-hpp.html"  title="Hpp"><i class="fa fa-lg fa-fw fa-retweet"></i> Hpp </a>
+					<!-- Shared Tokens -->
+					<a href="../../../section-shared-tokens.html"  title="Shared Tokens"><i class="fa fa-lg fa-fw fa-retweet"></i> Shared Tokens</a>					
+					<!-- Routes -->					
+					<a href="../../../section-routes.html"  title="Routes"><i class="fa fa-lg fa-fw fa-recycle"></i> Routes</a>
+					<!-- Cascading -->					
+					<a href="../../../section-cascading.html"  title="Cascading"><i class="fa fa-lg fa-fw fa-share-alt"></i> Cascading </a>				
+					<!-- References -->						
+					<a href="../../../section-references.html"  title="References"><i class="fa fa-lg fa-fw fa-arrows-alt"></i> References </a>
+					<!-- Tools -->					
+					<a href="../../../section-tools.html"  title="Tools"><i class="fa fa-lg fa-fw fa-cogs"></i> Tools </a>			
+					<!-- Logs -->					
+					<a href="../../../section-logs.html"  title="Logs"><i class="fa fa-lg fa-fw fa-calendar"></i> Logs </a>
+			</div>				
+</nav><br>
+
+<div id="main">
+		<div class="container">
+			
+			<ul class="nav nav-tabs">
+				
+				<li class="active"><a data-toggle="tab" href="#merchant-create">
+					<i class="fa fa-lg fa-fw fa-plus-square" style="color:#799fec;"></i> Create</a>
+				</li>
+				<li ><a data-toggle="tab" href="#merchant-list">
+					<i class="fa fa-lg fa-fw fa-th-list" style="color:#799fec;"></i> List</a>
+				</li>
+			</ul>
+			
+			<div class="tab-content">
+				<!--Enter information about Merchant Create -->
+				<div id="merchant-create" class="tab-pane fade in active">
+					<div class="panel panel-primary" style="border: none;">
+						<div class="panel-heading" style="background-color:#799fec; border:0;">
+							<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> Mms <i class="fa fa-angle-double-right"></i> Merchant <i class="fa fa-angle-double-right"></i> Create</span> 
+						</div>
+						<div class="panel-body">
+						
+						<h4><strong>For creating a merchant fill up the fields <i class="fa fa-hand-o-down"></i></strong></h4><br>
+						
+						<table class="table table-hover table-bordered">
+									<thead>
+										<tr>
+											<th>Field</th>
+											<th>Description</th>
+											<th>Example</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><kbd>Merchant short name *</kbd></td>
+											<td>short name of the merchant in admin portal</td>
+											<td>Test_merch</td>
+										</tr>
+										<tr>
+											<td><kbd>Merchant full name *</kbd></td>
+											<td>full name of the merchant in admin portal</td>
+											<td>Test_merchant LTD</td>
+										</tr>
+										<tr>
+											<td><kbd>State</kbd></td>
+											<td>select disabled or enabled at list</td>
+											<td>enabled</td>
+										</tr>
+										
+										<tr>
+											<td><kbd>Reg Num</kbd></td>
+											<td>number of registration</td>
+											<td>123123</td>
+										</tr>
+										<tr>
+											<td><kbd>Reg Country</kbd></td>
+											<td>country of registration</td>
+											<td>USA</td>
+										</tr>
+										<tr>
+											<td><kbd>Mcc Codes *</kbd></td>
+											<td>code of business type</td>
+											<td>8999 Professional Service</td>
+										</tr>
+										<tr>
+											<td><kbd>Is Vat</kbd></td>
+											<td>merchant pays Vat or not</td>
+											<td>No</td>
+										</tr>
+										<tr>
+											<td><kbd>Return bill token in callback</kbd></td>
+											<td>sending bill token in callback</td>
+											<td>Yes</td>
+										</tr>
+										<tr>
+											<td><kbd>Hide email on hpp page</kbd></td>
+											<td>hide gateway email address on hosted payment page</td>
+											<td>No</td>
+										</tr>
+										<tr>
+											<td><kbd>Enable VT without any IP restrictions</kbd></td>
+											<td>Virtual Terminal without any IP restrictions</td>
+											<td>Yes</td>
+										</tr>
+										<tr>
+											<td><kbd>Hide contact us section on hpp page</kbd></td>
+											<td>hide contact data on hosted payment page</td>
+											<td>Yes</td>
+										</tr>
+										<tr>
+											<td><kbd>Icons on the payment page</kbd></td>
+											<td>showing icons on hosted payment page</td>
+											<td>Yes</td>
+										</tr>
+										<tr>
+											<td><kbd>Allow use oneclick</kbd></td>
+											<td>to allow using oneclick feature</td>
+											<td>Yes</td>
+										</tr>
+										<tr>
+											<td><kbd>Base Email *</kbd></td>
+											<td>main email of the merchant</td>
+											<td>ben-merchant@test.com</td>
+										</tr>
+										<tr>
+											<td><kbd>Base Msisdn</kbd></td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td><kbd>Base Fname</kbd></td>
+											<td>first name of responsible person (merchant side)</td>
+											<td>Ben</td>
+										</tr>
+										<tr>
+											<td><kbd>Base Lname</kbd></td>
+											<td>last name of responsible person (merchant side)</td>
+											<td>Smith</td>
+										</tr>
+										<tr>
+											<td><kbd>Tech Email</kbd></td>
+											<td>technical email for connection with merchant</td>
+											<td>support@merchant.com</td>
+										</tr>
+										<tr>
+											<td><kbd>Tech Fname</kbd></td>
+											<td>first name of a technical person (merchant side)</td>
+											<td>Bob</td>
+										</tr>
+										<tr>
+											<td><kbd>Tech Lname</kbd></td>
+											<td>last name of a technical person (merchant side)</td>
+											<td>Black</td>
+										</tr>
+										<tr>
+											<td><kbd>Fin Email</kbd></td>
+											<td>email of a financial person</td>
+											<td>fin@merchant.com</td>
+										</tr>
+										<tr>
+											<td><kbd>Fin Msisdn</kbd></td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td><kbd>Fin Fname</kbd></td>
+											<td>first name of a financial person (merchant side)</td>
+											<td>Jim</td>
+										</tr>
+										<tr>
+											<td><kbd>Fin Lname</kbd></td>
+											<td>last name of a financial person (merchant side)</td>
+											<td>Stone</td>
+										</tr>
+										<tr>
+											<td><kbd>Response Custom Fields</kbd></td>
+											<td>sending fields via callback:
+												<ul>
+													<li>DESCRIPTOR</li>
+													<li>DESCRIPTOR_PHONE</li>
+													<li>FRAUD_DECISION</li>
+													<li>FRAUD_REJECT_REASON</li>
+													<li>FRAUD_SCORE</li>
+													<li>MID_ID</li>
+													<li>MID_NAME</li>
+												</ul>
+											</td>
+											<td>DESCRIPTOR</td>
+										</tr>
+									</tbody>
+								</table><br>
+					
+							<div class="alert alert-warning">
+								<p><i class="fa fa-exclamation-triangle"></i><strong> Note |</strong> Always fill up the fields with *</p>
+							</div>
+						
+							<div class="well well-sm"><i class="fa fa-camera-retro"></i><strong> Screenshot from admin panel :</strong></div>
+								<p class="img-ctr">
+									<img src ="mms25.png" class="img-thumbnail"><br>
+									<img src ="mms26.png" class="img-thumbnail">
+								</p><br><br>
+					
+					<h4><strong>After all fields up press the button <i class="fa fa-hand-o-right"></i> <img src ="mms20.png" class="img-thumbnail"></strong></h4><br>
+				
+				</div>
+				<hr class="line">
+				<div class="panel-body">	
+					
+					<h4><strong>Next step is to whitelist IPs and Callback url <i class="fa fa-hand-o-down"></i></strong></h4><br>
+					<p>You should back to the newly created merchant and set up IPs an callback url.</p><br>
+					<p><kbd>Allowed ip's for the merchant</kbd> - set up merchant's IPs to whitelist them. Merchant is not able to send requests without whitilisted IPs.</p><br>
+					<p><kbd>Outgoing whitelist</kbd> - set up merchant's callback urls to whitelist them. Merchant is not able to receive callback requests without whitilisted url.</p><br>
+					<p>For adding a new one IP or url click on <i class="fa fa-hand-o-right"></i> <img src ="mms30.png" class="img-thumbnail"></p><br>
+					<p>For deleting IP or url click on <i class="fa fa-hand-o-right"></i> <img src ="mms28.png" class="img-thumbnail"></p><br>
+					
+					<div class="well well-sm"><i class="fa fa-camera-retro"></i><strong> Screenshot from Admin panel :</strong></div>
+								<p class="img-ctr">
+									<img src ="mms27.png" class="img-thumbnail">
+								</p><br><br>
+					
+					<h4><strong>After whitelisting press the button <i class="fa fa-hand-o-right"></i> <img src ="mms29.png" class="img-thumbnail"></strong></h4><br>
+					
+						</div>
+					</div>
+				</div>
+				
+				
+				<!--Enter information about Merchant List -->
+				<div id="merchant-list" class="tab-pane fade">
+					<div class="panel panel-primary" style="border: none;">
+						<div class="panel-heading" style="background-color:#799fec; border:0;">
+							<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> Mms <i class="fa fa-angle-double-right"></i> Merchant <i class="fa fa-angle-double-right"></i> Create</span> 
+						</div>
+						<div class="panel-body">
+							<div class="alert alert-info">
+								<p><i class="fa fa-info-circle"></i><strong> Description:</strong></p>
+								<p>Merchant List allows to find a merchant in Admin portal.</p>
+							</div><br>
+
+							<h4><strong>Select General filters for searching <i class="fa fa-hand-o-down"></i></strong></h4><br>	
+						
+						<table class="table table-hover table-bordered">
+									<thead>
+										<tr>
+											<th>Field</th>
+											<th>Description</th>
+											<th><i class="fa fa-camera-retro"></i> Screenshot</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><kbd>Gate</kbd></td>
+											<td>searching by gate name</td>
+											<td><img src ="mms12.png" class="img-thumbnail"></td>
+										</tr>
+										<tr>
+											<td><kbd>Merchant</kbd></td>
+											<td>searching by merchant name</td>
+											<td><img src ="mms13.png" class="img-thumbnail"></td>
+										</tr>
+										<tr>
+											<td><kbd>Merchant Description</kbd></td>
+											<td>searching by merchant description</td>
+											<td><img src ="mms34.png" class="img-thumbnail"></td>
+										</tr>
+										
+										<tr>
+											<td><kbd>Register Country</kbd></td>
+											<td>searching by registration country</td>
+											<td><img src ="mms35.png" class="img-thumbnail"></td>
+										</tr>
+										<tr>
+											<td><kbd>Register Number</kbd></td>
+											<td>searching by registration number</td>
+											<td><img src ="mms36.png" class="img-thumbnail"></td>
+										</tr>
+										<tr>
+											<td><kbd>Mcc Code</kbd></td>
+											<td>searching by Mcc code</td>
+											<td><img src ="mms37.png" class="img-thumbnail"></td>
+										</tr>
+										<tr>
+											<td><kbd>Is Vat</kbd></td>
+											<td>searching by Vat accessory</td>
+											<td><img src ="mms38.png" class="img-thumbnail"></td>
+										</tr>
+										<tr>
+											<td><kbd>Vat Number</kbd></td>
+											<td>searching by Vat number</td>
+											<td><img src ="mms39.png" class="img-thumbnail"></td>
+										</tr>
+										<tr>
+											<td><kbd>State</kbd></td>
+											<td>searching by state
+												<ul>
+													<li>disabled</li>
+													<li>enabled</li>
+												</ul>
+											</td>
+											<td><img src ="mms40.png" class="img-thumbnail"></td>
+										</tr>
+									</tbody>
+								</table><br>
+					
+					<h4><strong>After selecting filters press the button <i class="fa fa-hand-o-right"></i> <img src ="mms11.png" class="img-thumbnail"></strong></h4><br>	
+
+					</div>
+					<hr class="line">
+					<div class="panel-body">
+							
+						<h4><strong>Select Application Key filters for searching <i class="fa fa-hand-o-down"></i></strong></h4><br>
+							<table class="table table-hover table-bordered">
+									<thead>
+										<tr>
+											<th>Field</th>
+											<th>Description</th>
+											<th><i class="fa fa-camera-retro"></i> Screenshot</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><kbd>Key</kbd></td>
+											<td>searching by key of the application</td>
+											<td><img src ="mms42.png" class="img-thumbnail"></td>
+										</tr>
+										<tr>
+											<td><kbd>Mode</kbd></td>
+											<td>searching by application mode</td>
+											<td><img src ="mms43.png" class="img-thumbnail"></td>
+										</tr>
+									</tbody>
+								</table><br>			
+
+						<h4><strong>After selecting filters press the button <i class="fa fa-hand-o-right"></i> <img src ="mms11.png" class="img-thumbnail"></strong></h4><br>
+							
+					</div>
+					<hr class="line">
+					<div class="panel-body">
+						
+						
+						<h4><strong>Example of searching result <i class="fa fa-hand-o-down"></i></strong></h4><br>	
+							
+							
+						
+						<table class="table table-bordered table-hover">
+									<thead style="font-size: 14px;">
+										<tr>
+											<th>Login in Mportal</th>
+											<th>Gate Name</th>
+											<th>Merchant Id</th>
+											<th>Merchant Name</th>
+											<th>Merchant Description</th>
+											<th>Register Country</th>
+											<th>Register Number</th>
+											<th>MCC Codes</th>
+											<th>Is VAT</th>
+											<th>VAT Number</th>
+											<th>Allowed Ips</th>
+											<th>State</th>
+											<th>Actions</th>
+										</tr>
+									</thead>
+									<tbody >
+										<tr>
+											<td><i class="fa fa-eye"></i></td>
+											<td>Test gate</td>
+											<td>123</td>
+											<td>Test merchant</td>
+											<td>Test merchant</td>
+											<td>FRA</td>
+											<td>321</td>
+											<td>3355</td>
+											<td>No</td>
+											<td></td>
+											<td>See details (list of whitelisted IPs)</td>
+											<td>enabled</td>
+											<td>
+												<p><i class="fa fa-pencil"></i></p>
+												<p><i class="fa fa-font"></i></p>
+												<p><i class="fa fa-user"></i></p>
+											</td>	
+										</tr>
+										<tr>
+											<td><i class="fa fa-eye"></i></td>
+											<td>Live gate</td>
+											<td>342</td>
+											<td>ABC</td>
+											<td>ABC</td>
+											<td>USA</td>
+											<td>243</td>
+											<td>3355</td>
+											<td>No</td>
+											<td></td>
+											<td>See details (list of whitelisted IPs)</td>
+											<td>disabled</td>
+											<td>
+												<p><i class="fa fa-pencil"></i></p>
+												<p><i class="fa fa-font"></i></p>
+												<p><i class="fa fa-user"></i></p>
+											</td>
+										</tr>
+										<tr >
+											<td><i class="fa fa-eye"></i></td>
+											<td>Live gate</td>
+											<td>434</td>
+											<td>Live merchant</td>
+											<td>Live merchant</td>
+											<td>CAN</td>
+											<td>348</td>
+											<td>8999</td>
+											<td>No</td>
+											<td></td>
+											<td>See details (list of whitelisted IPs)</td>
+											<td>enabled</td>
+											<td>
+													<p><i class="fa fa-pencil"></i></p>
+													<p><i class="fa fa-font"></i></p>
+													<p><i class="fa fa-user"></i></p>
+											</td>
+										</tr>
+									</tbody>
+								</table><br>
+								
+							<div class="alert alert-info mod">
+								<p><i class="fa fa-cog"></i><strong> Details:</strong></p>	
+								<p>For moving to Mportal press  <i class="fa fa-eye"></i> (If merchant has a hosted payment page integration). See more details <i class="fa fa-hand-o-right"></i> <a href ="https://my.maxpay.com"> here</a>.</p>
+								<p>For updating merchant's settings press <i class="fa fa-pencil"></i> .</p>
+								<p>For moving to Account section press the button  <i class="fa fa-font"></i> . See more details <i class="fa fa-hand-o-right"></i> <a href = "mms-account.html"> here</a>.</p>
+								<p>For moving to MIDs section press the button <i class="fa fa-user"></i> . See more details <i class="fa fa-hand-o-right"></i> <a href = "mms-mid.html"> here</a>.</p>
+							</div><br>	
+							
+							<p><strong>Under the result situated the button <i class="fa fa-hand-o-right"></i> <img src ="mms18.png" class="img-thumbnail"></strong></p> 
+							<p>See more details <i class="fa fa-hand-o-right"></i> <a href="mms-tree.html">here</a>.</h4>
+							
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+</div>		
+ </body>
+</html>
