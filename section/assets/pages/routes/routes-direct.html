@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Direct</title>
+
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="../../js/menu.js"></script>
+		<script type="text/javascript" src="../../js/pageUP.js"></script>
+		<link rel="shortcut icon" href="../../img/maxpay.ico" type="image/x-icon">
+		<link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+		<link rel="stylesheet" href="../../css/style.css">
+		
+
+		
+		
+	</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				
+				<li><a href="../../../section-routes.html" title="Back to Routes section" onmouseover="this.style.color='#5356ac';" 
+				onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-long-arrow-left"></i></a></li>	
+				
+			
+				<li><a href="../../../../tutorial.html" title="Home"
+				onmouseover="this.style.color='#5356ac';" onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-home"></i></a></li>
+				
+				<li><a href="#" onclick="openNav()" title="Menu" onmouseover="this.style.color='#5356ac';" onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-bars"></i></a></li>
+			</ul>
+		</div>
+		
+		<div id="mySidenav" class="sidenav"><br>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" title="Close">&times;</a>
+					
+					<!-- Gate-->
+					<a href="../../../section-gate.html" title="Gate"><i class="fa fa-lg fa-fw fa-cube"></i> Gate </a>
+					<!-- User Management -->
+					<a href="../../../section-user-management.html"  title="User Management"><i class="fa fa-lg fa-fw fa-user"></i>User Management </a>
+					<!-- Reports -->
+					<a href="../../../section-reports.html"  title="Reports"><i class="fa fa-lg fa-fw fa-th-list"></i> Reports </a>					
+					<!-- MMS -->				
+					<a href="../../../section-mms.html"  title="Mms"><i class="fa fa-lg fa-fw fa-maxcdn"></i> Mms </a>				
+					<!-- HPP -->					
+					<a href="../../../section-hpp.html"  title="Hpp"><i class="fa fa-lg fa-fw fa-retweet"></i> Hpp </a>
+					<!-- Shared Tokens -->
+					<a href="../../../section-shared-tokens.html"  title="Shared Tokens"><i class="fa fa-lg fa-fw fa-retweet"></i> Shared Tokens</a>					
+					<!-- Routes -->					
+					<a href="../../../section-routes.html"  title="Routes"><i class="fa fa-lg fa-fw fa-recycle"></i> Routes</a>
+					<!-- Cascading -->					
+					<a href="../../../section-cascading.html"  title="Cascading"><i class="fa fa-lg fa-fw fa-share-alt"></i> Cascading </a>				
+					<!-- References -->						
+					<a href="../../../section-references.html"  title="References"><i class="fa fa-lg fa-fw fa-arrows-alt"></i> References </a>
+					<!-- Tools -->					
+					<a href="../../../section-tools.html"  title="Tools"><i class="fa fa-lg fa-fw fa-cogs"></i> Tools </a>			
+					<!-- Logs -->					
+					<a href="../../../section-logs.html"  title="Logs"><i class="fa fa-lg fa-fw fa-calendar"></i> Logs </a>
+			</div>				
+	</nav><br>
+	
+	<div id="main">
+		
+		<div class="container">
+		
+			<ul class="nav nav-tabs">
+				
+				<li class="active"><a data-toggle="tab" href="#routes-list">
+					<i class="fa fa-lg fa-fw fa-magic" style="color:#799fec;"></i> List </a>
+				</li>
+				<li><a data-toggle="tab" href="#routes-sim">
+					<i class="fa fa-lg fa-fw fa-th-list" style="color:#799fec;"></i> Simulations</a>
+				</li>
+			</ul>
+			
+			<div class="tab-content">
+				<!--Enter information about Routes Simulations -->
+				<div id="routes-list" class="tab-pane fade in active">
+					<div class="panel panel-primary" style="border: none;">
+						<div class="panel-heading" style="background-color:#799fec; border:0;">
+							<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> Routes <i class="fa fa-angle-double-right"></i> Direct <i class="fa fa-angle-double-right"></i> List </span>
+						</div>
+						<div class="panel-body">
+					
+						<h4><strong>For creating a routing feature select the filter <i class="fa fa-hand-o-down"></i></strong></h4><br>
+					
+					<table class="table table-hover table-bordered">
+									<thead>
+										<tr>
+											<th>Field</th>
+											<th>Description</th>
+											<th><i class="fa fa-camera-retro"></i> Screenshot</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><kbd>Gate</kbd></td>
+											<td>select by the gate</td>
+											<td><img src ="rout01.png" class="img-thumbnail"></td>
+										</tr>
+										<tr>
+											<td><kbd>Merchant</kbd></td>
+											<td>select by the merchant</td>
+											<td><img src ="rout02.png" class="img-thumbnail"></td>
+										</tr>
+										<tr>
+											<td><kbd>Account</kbd></td>
+											<td>select by the account</td>
+											<td><img src ="rout03.png" class="img-thumbnail"></td>
+										</tr>
+										
+										<tr>
+											<td><kbd>Account state</kbd></td>
+											<td>select by the account state
+												<ul>
+													<li>active</li>
+													<li>inactive</li>
+													<li>blocked</li>
+													<li>test</li>
+												</ul>
+											</td>
+											<td><img src ="rout04.png" class="img-thumbnail"></td>
+										</tr>
+										<tr>
+											<td><kbd>Is routed</kbd></td>
+											<td>select by the routed</td>
+											<td><img src ="rout05.png" class="img-thumbnail"></td>
+										</tr>
+									</tbody>
+								</table><br>
+					
+		<h4><strong>After selecting filters press the button <i class="fa fa-hand-o-right"></i> <img src ="rout06.png" class="img-thumbnail"></strong></h4><br>
+					
+					
+		<h4><strong>Example of searching result <i class="fa fa-hand-o-down"></i></strong></h4><br>			
+					
+					
+		<table class="table table-hover table-bordered">
+			<thead>
+				<tr>
+                    <th>Gate Id:</th>
+					<th>Gate Name </th>
+					<th>Merchant Id</th>
+					<th>Merchant Name</th>
+					<th>Merchant Account Id </th>
+					<th>Merchant Account Name</th>
+					<th>Is resubscribing</th>
+					<th>State</th>
+					<th>Actions </th>
+				</tr>
+			</thead>
+			<tbody>
+                <tr>
+                    <td>123</td>
+					<td>Live gate</td>
+					<td>50</td>
+					<td>ABC</td>
+					<td>551</td>
+					<td>ABC_ACC_LIVE</td>
+					<td>yes</td>
+					<td>active</td>
+                    <td><i class="fa fa-eye"></i></td>
+				</tr>
+                <tr>
+                    <td>123</td>
+					<td>Live gate</td>
+					<td>50</td>
+					<td>ABC</td>
+					<td>552</td>
+					<td>ABC2_ACC_LIVE</td>
+					<td>no</td>
+					<td>active</td>
+                    <td><i class="fa fa-eye"></i></td>
+				</tr>
+                <tr>
+                    <td>123</td>
+					<td>Live gate</td>
+					<td>50</td>
+					<td>ABC</td>
+					<td>553</td>
+					<td>ABC3_ACC_TEST</td>
+					<td>no</td>
+					<td>test</td>
+                    <td><i class="fa fa-eye"></i></td>
+				</tr>
+                <tr>
+                    <td>123</td>
+					<td>Live gate</td>
+					<td>50</td>
+					<td>ABC</td>
+					<td>554</td>
+					<td>ABC4_ACC_LIVE</td>
+					<td>no</td>
+					<td>active</td>
+                    <td><i class="fa fa-eye"></i></td>
+				</tr>
+            </tbody>
+		</table><br>
+		
+		<div class="alert alert-info mod">
+				<p><i class="fa fa-cog"></i><strong> Details:</strong></p>
+				<p><b>Button <i class="fa fa-eye"></i></b> - allows to watch the routing settings.</p>
+		</div>
+		
+				</div>
+				<hr class="line">
+				<div class="panel-body">
+					
+					
+		<div class="well well-sm" style="background-color:#F5F7F9; text-align: center;">
+			<h4> <i class="fa fa-eye"></i> View </h4>
+		</div><br>			
+					
+		<div class="well well-sm"><i class="fa fa-camera-retro"></i><strong> Screenshot from Admin Portal :</strong></div>
+				<p style="text-align:center;"><img src ="rout07.png" class="img-thumbnail"></p><br><br><br>
+		
+		<h4><strong>Click on the field to select the rule <i class="fa fa-hand-o-right"></i> <img src ="rout08.png" class="img-thumbnail"> </i></strong></h4><br><br>
+		
+		<h4><strong>List of rules for routing <i class="fa fa-hand-o-down"></i></strong></h4><br>			
+					
+		<table class="table table-hover table-bordered">
+			<thead>
+				<tr>			
+					<th>Rule</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Random</td>
+					<td>You can specify the percentage of the transactions that will go to the left MID. Others will be redirected to the right MID.</td>
+				</tr>
+				<tr>
+					<td>Amount</td>
+					<td>Configure by the amount of transaction</td>
+				</tr>
+				<tr>
+					<td>Currency</td>
+					<td>You a re able to select few currencies for the MID</td>
+				</tr>
+				<tr>
+					<td>Has CVV</td>
+					<td>The Transactions go with CVV parameter</td>
+				</tr>
+				<tr>
+					<td>Simple</td>
+					<td>This rule will always return mid from success result node </td>
+				</tr>
+				<tr>
+					<td>AffId</td>
+					<td>The transactions go to Affiliate MID. You should input the values of AffId</td>
+				</tr>
+				<tr>
+					<td>BinMask</td>
+					<td>Configure by the 6 symbols of payment card</td>
+				</tr>
+				<tr>
+					<td>Card Brand</td>
+					<td>You are able to set up the MID for Visa, MasterCard, AmexPress, Diners, Discover, JCB.</td>
+				</tr>
+				<tr>
+					<td>Card Level</td>
+					<td>Level of the payment card</td>
+				</tr>
+				<tr>
+					<td>Card Country ISO3</td>
+					<td>Set up the routing by country</td>
+				</tr>
+				<tr>
+					<td>Card Payment Type</td>
+					<td>Set up the routing by type of payment card</td>
+				</tr>
+				<tr>
+					<td>Country</td>
+					<td>Select the country from the list to set up the routing by country</td>
+				</tr>
+				<tr>
+					<td>Product name</td>
+					<td>Set up the routing by name of the product</td>
+				</tr>
+				<tr>
+					<td>Website</td>
+					<td>Set up the routing by name of the website</td>
+				</tr>
+				<tr>
+					<td>Type of transaction</td>
+					<td>Set up the routing by transaction's type</td>
+				</tr>
+            </tbody>
+		</table><br><br>		
+					
+					
+					
+		<div class="well well-sm"><i class="fa fa-camera-retro"></i><strong> Screenshot from Admin Portal :</strong></div>
+				<p style="text-align:center;"><img src ="rout19.png" class="img-thumbnail"></p><br><br>		
+					
+		<p>For saving the rule press the button <i class="fa fa-hand-o-right"> <img src ="rout14.png" class="img-thumbnail"></i></p><br>			
+					
+		<p>For deleting the rule press the button <i class="fa fa-hand-o-right"> <img src ="rout15.png" class="img-thumbnail"></i></p><br><br>			
+					
+		<h4><strong>Next step is to click on the MID field of success branch and select the MID<i class="fa fa-hand-o-right"></i> <img src ="rout20.png" class="img-thumbnail"> </i></strong></h4><br><br>			
+					
+		<div class="well well-sm"><i class="fa fa-camera-retro"></i><strong> Screenshot from Admin Portal :</strong></div>
+				<p style="text-align:center;"><img src ="rout09.png" class="img-thumbnail"></p><br><br>			
+					
+		<p>For saving the MID press the button <i class="fa fa-hand-o-right"> <img src ="rout12.png" class="img-thumbnail"></i></p><br><br>
+		
+		<p style="text-align:center;"><img src ="rout24.png" class="img-thumbnail"></p><br><br><br>
+		
+		<p>For deleting MID press the button <i class="fa fa-hand-o-right"> <img src ="rout21.png" class="img-thumbnail"></i></p><br>
+			
+		<p>For adding a new rule press the button <i class="fa fa-hand-o-right"> <img src ="rout11.png" class="img-thumbnail"></i></p><br><br><br>			
+					
+		<h4><strong>Example of a new rule <i class="fa fa-hand-o-down"></i></strong></h4><br>			
+					
+		<div class="well well-sm"><i class="fa fa-camera-retro"></i><strong> Screenshot from Admin Portal :</strong></div>
+				<p style="text-align:center;"><img src ="rout23.png" class="img-thumbnail"></p><br><br><br>			
+					
+		<h4><strong>Click on the field to assign a new one MID<i class="fa fa-hand-o-right"></i> <img src ="rout25.png" class="img-thumbnail"> </i></strong></h4><br><br>			
+					
+			<div class="well well-sm"><i class="fa fa-camera-retro"></i><strong> Screenshot from Admin Portal :</strong></div>
+				<p style="text-align:center;"><img src ="rout22.png" class="img-thumbnail"></p><br><br><br>		
+					
+			<p>And press the button <i class="fa fa-hand-o-right"></i> <img src ="rout26.png" class="img-thumbnail"></p><br>		
+			<p>Select the MID from the list of available MIDs and press <i class="fa fa-hand-o-right"></i> <img src ="rout12.png" class="img-thumbnail"></p><br><br>
+			
+			<p style="text-align:center;"><img src ="rout27.png" class="img-thumbnail"></p><br><br><br>
+			
+						<div class="alert alert-warning">
+							<p><i class="fa fa-exclamation-triangle"></i><strong> Note |</strong> You are able to create as many rules as you want ! </p>
+						</div><br>
+			
+				</div>
+				<hr class="line">
+				<div class="panel-body">
+			
+			<p>For naming a revision of routing settings fill up the field <i class="fa fa-hand-o-down"></i> </p>
+			
+			<input class="form-control" value="New rule set created by - bob.doe@test.com"><br><br>
+			
+			<h4><strong>After set up the settings of routing press the button <i class="fa fa-hand-o-right"></i> <img src ="rout17.png" class="img-thumbnail"></strong></h4><br><br>
+			
+			<p>You are able to watch revision history at section Revision list <i class="fa fa-hand-o-down"></i></p><br>
+
+			<div class="form-group">
+					<select class="form-control">
+						<option>Revision number: 1 Revision date: 2016-05-23 13:16:53 |  New rule set created by - john.doe@test.com | </option>
+						<option>Revision number: 2 Revision date: 2016-05-23 14:08:54 |  New rule set created by - john.doe@test.com | </option>
+						<option>Revision number: 3 Revision date: 2016-05-30 08:14:46 |  New rule set created by - john.doe@test.com | </option>
+						<option>Revision number: 4 Revision date: 2016-05-31 08:31:51 |  New rule set created by - john.doe@test.com | </option>
+						<option>Revision number: 5 Revision date: 2016-06-01 14:29:53 |  New rule set created by - john.doe@test.com | </option>
+						<option>Revision number: 6 Revision date: 2016-06-02 09:17:21 |  New rule set created by - john.doe@test.com | </option>
+						<option selected >Revision number: 7 Revision date: 2016-06-06 08:35:22 |  New rule set created by - bob.doe@test.com |  Active </option>                       
+					</select>
+			</div>	<br><br><br><br>
+			
+			
+			<h4><strong>For simulating the routing settings just click on <i class="fa fa-hand-o-right"></i> <img src ="rout16.png" class="img-thumbnail"></strong></h4><br><br>
+			<p>And input Transaction count. More information about routing simulation is located at section <i class="fa fa-hand-o-right"></i> Simulations.</p>
+			<div class="well well-sm"><i class="fa fa-camera-retro"></i><strong> Screenshot from Admin Portal :</strong></div>
+			<p style="text-align:center;"><img src ="rout28.png" class="img-thumbnail"></p><br><br><br>
+			
+			
+						</div>
+					</div>
+				</div>
+				
+				
+				<!--Enter information about Routes List -->
+				<div id="routes-sim" class="tab-pane fade">
+					<div class="panel panel-primary" style="border: none;">
+						<div class="panel-heading" style="background-color:#799fec; border:0;">
+							<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> Routes <i class="fa fa-angle-double-right"></i> Direct <i class="fa fa-angle-double-right"></i> Simulations </span>
+						</div>
+						<div class="panel-body">
+					
+					
+							<div class="alert alert-info" id="routes-simul">
+								<p><i class="fa fa-info-circle"></i><strong> Description:</strong></p>
+								<p>Section Simulation allows to watch test routing distribution between MIDs.</p>
+							</div><br>
+					
+					<h4><strong>For searching Simulation revisions select the rule <i class="fa fa-hand-o-right"></i> <img src ="rout29.png" class="img-thumbnail"></strong></h4><br><br>
+					
+					<div class="alert alert-warning">
+							<p><i class="fa fa-exclamation-triangle"></i><strong> Note |</strong> You are able searching by list without rules ! </p>
+						</div><br>
+					
+					<h4><strong>List of rules <i class="fa fa-hand-o-down"></i></strong></h4>
+					
+					<table class="table table-hover table-bordered">
+						<thead>
+							<tr>			
+								<th>Rule</th>
+								<th>Description</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Created At</td>
+								<td>Date of creating simulation</td>
+							</tr>
+							<tr>
+								<td>Updated At</td>
+								<td>Date of updating simulation</td>
+							</tr>
+							<tr>
+								<td>Expire At</td>
+								<td>Expire date of simulation</td>
+							</tr>
+							<tr>
+								<td>Transaction Count</td>
+								<td>Count of transactions</td>
+							</tr>
+							<tr>
+								<td>Simulated Count</td>
+								<td>simulated count of transactions</td>
+							</tr>
+							<tr>
+								<td>Revision Name</td>
+								<td>Name of revision</td>
+							</tr>
+							<tr>
+								<td>Revision Id</td>
+								<td>ID of revision</td>
+							</tr>
+							<tr>
+								<td>Gate</td>
+								<td>Name of the Gate</td>
+							</tr>
+					</tbody>
+				</table><br>	
+					
+				<div class="alert alert-warning">
+					<p><i class="fa fa-exclamation-triangle"></i><strong> Note |</strong> You are able to select few rules !</p>
+				</div><br><br>
+				
+				<h4><strong>Next step is to select Limit and Report Type <i class="fa fa-hand-o-down"></i></strong></h4><br>
+				
+				<table class="table table-hover table-bordered">
+						<thead>
+							<tr>			
+								<th>Field</th>
+								<th>Description</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Limit</td>
+								<td>Limit of strings on a page:
+								<ul>
+									<li>25</li>
+									<li>50</li>
+									<li>100</li>
+									<li>500</li>
+									<li>1000</li>
+								</ul>
+								</td>
+							</tr>
+							<tr>
+								<td>Report Type</td>
+								<td>Type of the report:
+								<ul>
+									<li>HTML</li>
+									<li>CSV</li>
+								</ul>
+								</td>
+							</tr>
+						</tbody>
+					</table><br>
+				
+				<h4><strong>After selecting the rule press the button <i class="fa fa-hand-o-right"></i> <img src ="rout30.png" class="img-thumbnail"></strong></h4><br><br><br>
+				
+				
+				<h4><strong>Example of Simulations list <i class="fa fa-hand-o-down"></i></strong></h4><br>
+				<table class="table table-hover table-bordered">
+						<thead style="font-size: 16px;">
+							<tr>			
+								<th>Gate</th>
+								<th>Merchant</th>
+								<th>Merchant Account</th>
+								<th>Revision Id</th>
+								<th>Revision Name</th>
+								<th>Status</th>
+								<th>Created At</th>
+								<th>Updated At</th>
+								<th>Expire At</th>
+								<th>Transaction Count</th>
+								<th>Simulated Count</th>
+								<th>Actions</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Test Gate</td>
+								<td>Test merchant</td>
+								<td>Test_Account </td>
+								<td>12</td>
+								<td>new rule by - john.doe@test.com</td>
+								<td>Done</td>
+								<td>2016-03-25 09:01:12</td>
+								<td>2016-03-25 09:01:53</td>
+								<td>2016-04-24 07:30:15</td>
+								<td>1000</td>
+								<td>1000</td>
+								<td><i class="fa fa-eye"></i> <i class="fa fa-trash-o"></i></td>
+							</tr>
+							<tr>
+								<td>Live Gate</td>
+								<td>ABC</td>
+								<td>ABC_Account </td>
+								<td>19</td>
+								<td>new rule by - john.doe@test.com</td>
+								<td>Done</td>
+								<td>2016-01-25 09:01:12</td>
+								<td>2016-01-29 08:01:53</td>
+								<td>2016-02-16 07:30:15</td>
+								<td>1000</td>
+								<td>1000</td>
+								<td><i class="fa fa-eye"></i> <i class="fa fa-trash-o"></i></td>
+							</tr>
+							<tr>
+								<td>Live Gate</td>
+								<td>RPF</td>
+								<td>RPF_Account </td>
+								<td>11</td>
+								<td>new rule by - john.doe@test.com</td>
+								<td>ERROR</td>
+								<td>2016-02-15 09:01:12</td>
+								<td>2016-02-27 09:01:53</td>
+								<td>2016-03-20 07:30:15</td>
+								<td>1000</td>
+								<td>1000</td>
+								<td><i class="fa fa-eye"></i> <i class="fa fa-trash-o"></i></td>
+							</tr>	
+						</tbody>
+					</table><br>
+					
+					<div class="alert alert-info mod">
+					<p><i class="fa fa-cog"></i><strong> Details:</strong></p>
+					<p>Press - <i class="fa fa-eye"></i> to watch the statistic of transactions which were simulated.</p>
+					<p>Press - <i class="fa fa-trash-o"></i> to delete the simulation.</p>
+					</div>
+				
+				</div>
+				<hr class="line"><br>
+				<div class="panel-body">	
+				
+				<div class="well well-sm" style="background-color:#F5F7F9; text-align: center;">	
+					<h4><i class="fa fa-eye"></i> View</h4>
+				</div>
+				<br>	
+					
+				<div class="well well-sm"><i class="fa fa-camera-retro"></i><strong> Screenshot from Admin Portal :</strong></div>
+				
+					<p style="text-align:center;"><img src ="rout31.png" class="img-thumbnail"></p><br><br>	
+					
+					
+					<table class="table table-hover table-bordered">
+						<thead>
+							<tr>			
+								<th>ID</th>
+								<th>MID</th>
+								<th>Transaction Count</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>3</td>
+								<td>Blocked</td>
+								<td>198</td>
+							</tr>
+							<tr>
+								<td>21</td>
+								<td>testmid</td>
+								<td>2</td>
+							</tr>
+						</tbody>
+					</table><br><br><br><br>
+					
+		<p><b>Example of list with transactions which were simulated <i class="fa fa-hand-o-down"></i></b></p><br>
+				
+			<table class="table table-hover table-bordered">
+						<thead style="font-size: 16px;">
+							<tr>			
+								<th>Details</th>
+								<th>Created At</th>
+								<th>Reference</th>
+								<th>Amount</th>
+								<th>Currency</th>
+								<th>Type</th>
+								<th>Card Type</th>
+								<th>Has Cvv</th>
+								<th>Mid Id</th>
+								<th>Mid</th>
+								<th>Country</th>
+								<th>Product Name</th>
+								<th>Website</th>
+								<th>Affiliate Id</th>
+							</tr>
+						</thead>
+						<tbody>
+								<tr>
+									<td><img src ="rout32.png" class="img-thumbnail"></td>
+									<td>2015-07-17 01:26:03</td>
+									<td>ABN00000123FD21</td>
+									<td>10</td>
+									<td>USD</td>
+									<td>SALE</td>
+									<td>VISA</td>
+									<td>yes</td>
+									<td>21</td>
+									<td>testmid</td>
+									<td>AUS</td>
+									<td>-</td>
+									<td>-</td>
+									<td>-</td>
+								</tr>
+								<tr>
+									<td><img src ="rout32.png" class="img-thumbnail"></td>
+									<td>2015-07-13 01:26:03</td>
+									<td>ABN00000123FD24</td>
+									<td>15</td>
+									<td>EUR</td>
+									<td>AUTH</td>
+									<td>VISA</td>
+									<td>yes</td>
+									<td>3</td>
+									<td>Blocked</td>
+									<td>FRA</td>
+									<td>-</td>
+									<td>-</td>
+									<td>-</td>
+								</tr>
+								<tr>
+									<td><img src ="rout32.png" class="img-thumbnail"></td>
+									<td>2015-07-04 01:26:03</td>
+									<td>ABN00000123FD10</td>
+									<td>49.99</td>
+									<td>USD</td>
+									<td>SALE</td>
+									<td>AMEX</td>
+									<td>yes</td>
+									<td>3</td>
+									<td>Blocked</td>
+									<td>USA</td>
+									<td>-</td>
+									<td>-</td>
+									<td>-</td>
+								</tr>
+						</tbody>
+					</table><br><br>
+
+<p><b>Button <i class="fa fa-hand-o-right"></i> </b><img src ="rout32.png" class="img-thumbnail"> - allows to view the detail of transaction.</p>				
+				
+				</div>
+			</div>
+		</div>
+			
+		</div>	
+	</div>
+</div>		
+ </body>
+</html>

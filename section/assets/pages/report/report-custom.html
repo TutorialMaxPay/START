@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Custom</title>
+
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="../../js/menu.js"></script>
+		<script type="text/javascript" src="../../js/pageUP.js"></script>
+		<link rel="shortcut icon" href="../../img/maxpay.ico" type="image/x-icon">
+		<link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+		<link rel="stylesheet" href="../../css/style.css">
+	
+	</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				
+				<li><a href="../../../section-reports.html" title="Back to Reports section" onmouseover="this.style.color='#5356ac';" 
+				onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-long-arrow-left"></i></a></li>	
+				
+			
+				<li><a href="../../../../tutorial.html" title="Home"
+				onmouseover="this.style.color='#5356ac';" onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-home"></i></a></li>
+				
+				<li><a href="#" onclick="openNav()" title="Menu" onmouseover="this.style.color='#5356ac';" onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-bars"></i></a></li>
+			</ul>
+		</div>
+		
+		<div id="mySidenav" class="sidenav"><br>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" title="Close">&times;</a>
+					
+					<!-- Gate-->
+					<a href="../../../section-gate.html" title="Gate"><i class="fa fa-lg fa-fw fa-cube"></i> Gate </a>
+					<!-- User Management -->
+					<a href="../../../section-user-management.html"  title="User Management"><i class="fa fa-lg fa-fw fa-user"></i>User Management </a>
+					<!-- Reports -->
+					<a href="../../../section-reports.html"  title="Reports"><i class="fa fa-lg fa-fw fa-th-list"></i> Reports </a>					
+					<!-- MMS -->				
+					<a href="../../../section-mms.html"  title="Mms"><i class="fa fa-lg fa-fw fa-maxcdn"></i> Mms </a>				
+					<!-- HPP -->					
+					<a href="../../../section-hpp.html"  title="Hpp"><i class="fa fa-lg fa-fw fa-retweet"></i> Hpp </a>
+					<!-- Shared Tokens -->
+					<a href="../../../section-shared-tokens.html"  title="Shared Tokens"><i class="fa fa-lg fa-fw fa-retweet"></i> Shared Tokens</a>					
+					<!-- Routes -->					
+					<a href="../../../section-routes.html"  title="Routes"><i class="fa fa-lg fa-fw fa-recycle"></i> Routes</a>
+					<!-- Cascading -->					
+					<a href="../../../section-cascading.html"  title="Cascading"><i class="fa fa-lg fa-fw fa-share-alt"></i> Cascading </a>				
+					<!-- References -->						
+					<a href="../../../section-references.html"  title="References"><i class="fa fa-lg fa-fw fa-arrows-alt"></i> References </a>
+					<!-- Tools -->					
+					<a href="../../../section-tools.html"  title="Tools"><i class="fa fa-lg fa-fw fa-cogs"></i> Tools </a>			
+					<!-- Logs -->					
+					<a href="../../../section-logs.html"  title="Logs"><i class="fa fa-lg fa-fw fa-calendar"></i> Logs </a>
+			</div>				
+</nav><br>
+	
+<div id="main">		
+		<div class="container">
+			<div class="panel-group">
+		
+				<div class="panel panel-primary" style="border: none;">
+					<div class="panel-heading" style="background-color:#799fec; border:0;"> 
+						<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> Reports <i class="fa fa-angle-double-right"></i> Custom </span>
+					</div>
+				
+					<!-- Content of Custom Report -->
+					<div class="panel-body">
+					
+				<div class="alert alert-info">
+					<p><i class="fa fa-info-circle"></i><strong> Description:</strong></p>
+						<p>Custom report is a report which you create by yourself when use <i class="fa fa-hand-o-right"></i> <img src ="trans08.png" class="img-thumbnail"></p>
+						<p>It's a place where you can find your own reports.</p>
+				</div><br>
+					
+				<h4><strong>Fields of Custom report <i class="fa fa-hand-o-down"></i></strong></h4><br>
+				
+				<table class="table table-hover table-bordered">
+					<thead>
+						<tr>
+							<th>Field</th>
+							<th>Description</th>
+							<th>Example</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><kbd>Id</kbd></td>
+							<td>Id of the report</td>
+							<td>321</td>
+						</tr>
+						<tr>
+							<td><kbd>Custom report name</kbd></td>
+							<td>name of the report</td>
+							<td>Test transactions report</td>
+						</tr>
+						<tr>
+							<td><kbd>Report Name</kbd></td>
+							<td>name of the report which is using</td>
+							<td>
+								<ul>
+									<li>Transactions Report</li>
+									<li>Chargebacks Report</li>
+									<li>Approve Ratio</li>
+									<li>Chargeback Ratio</li>
+									<li>Fraud Ratio</li>
+									<li>Summary</li>
+									<li>Transactions Cube</li>
+								</ul>	
+							</td>
+						</tr>
+						<tr>
+							<td><kbd>Date</kbd></td>
+							<td>date of creating a report</td>
+							<td>2016/08/30 07:43:26</td>
+						</tr>
+						<tr>
+							<td><kbd>Actions</kbd></td>
+							<td>only one action - remove a report</td>
+							<td><img src ="trans35.png" class="img-thumbnail"></td>
+						</tr>
+					</tbody>
+				</table><br>				
+					
+				<div class="well well-sm"><i class="fa fa-camera-retro"></i><strong> Screenshot from admin panel :</strong></div>
+					<p class="img-ctr">	
+						<img src ="trans36.png" class="img-thumbnail"><br><br>	
+					</p>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+</div>		
+ </body>
+</html>

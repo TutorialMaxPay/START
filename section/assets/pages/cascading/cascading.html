@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Cascading</title>
+
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="../../js/menu.js"></script>
+		<script type="text/javascript" src="../../js/pageUP.js"></script>
+		<link rel="shortcut icon" href="../../img/maxpay.ico" type="image/x-icon">
+		<link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+		<link rel="stylesheet" href="../../css/style.css">
+		
+	</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				
+				<li><a href="../../../section-cascading.html" title="Back to Cascading section" onmouseover="this.style.color='#5356ac';" 
+				onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-long-arrow-left"></i></a></li>	
+				
+			
+				<li><a href="../../../../tutorial.html" title="Home"
+				onmouseover="this.style.color='#5356ac';" onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-home"></i></a></li>
+				
+				<li><a href="#" onclick="openNav()" title="Menu" onmouseover="this.style.color='#5356ac';" onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-bars"></i></a></li>
+			</ul>
+		</div>
+		
+		<div id="mySidenav" class="sidenav"><br>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" title="Close">&times;</a>
+					
+					<!-- Gate-->
+					<a href="../../../section-gate.html" title="Gate"><i class="fa fa-lg fa-fw fa-cube"></i> Gate </a>
+					<!-- User Management -->
+					<a href="../../../section-user-management.html"  title="User Management"><i class="fa fa-lg fa-fw fa-user"></i>User Management </a>
+					<!-- Reports -->
+					<a href="../../../section-reports.html"  title="Reports"><i class="fa fa-lg fa-fw fa-th-list"></i> Reports </a>					
+					<!-- MMS -->				
+					<a href="../../../section-mms.html"  title="Mms"><i class="fa fa-lg fa-fw fa-maxcdn"></i> Mms </a>				
+					<!-- HPP -->					
+					<a href="../../../section-hpp.html"  title="Hpp"><i class="fa fa-lg fa-fw fa-retweet"></i> Hpp </a>
+					<!-- Shared Tokens -->
+					<a href="../../../section-shared-tokens.html"  title="Shared Tokens"><i class="fa fa-lg fa-fw fa-retweet"></i> Shared Tokens</a>					
+					<!-- Routes -->					
+					<a href="../../../section-routes.html"  title="Routes"><i class="fa fa-lg fa-fw fa-recycle"></i> Routes</a>
+					<!-- Cascading -->					
+					<a href="../../../section-cascading.html"  title="Cascading"><i class="fa fa-lg fa-fw fa-share-alt"></i> Cascading </a>				
+					<!-- References -->						
+					<a href="../../../section-references.html"  title="References"><i class="fa fa-lg fa-fw fa-arrows-alt"></i> References </a>
+					<!-- Tools -->					
+					<a href="../../../section-tools.html"  title="Tools"><i class="fa fa-lg fa-fw fa-cogs"></i> Tools </a>			
+					<!-- Logs -->					
+					<a href="../../../section-logs.html"  title="Logs"><i class="fa fa-lg fa-fw fa-calendar"></i> Logs </a>
+			</div>				
+	</nav><br>
+	
+<div id="main">
+		
+		<div class="container">
+			<div class="panel-group">
+		
+				<div class="panel panel-primary" style="border: none;">
+					<div class="panel-heading" style="background-color:#799fec; border:0;">
+						<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> Cascading </span>
+					</div>
+				
+					<!-- Content of Cascading -->
+					<div class="panel-body">
+					
+					
+					<div class="alert alert-warning">
+									<p><i class="fa fa-exclamation-triangle"></i><strong> Note |</strong> Cascading payment feature is created at section MMS <i class="fa fa-angle-double-right"></i> Account <i class="fa fa-angle-double-right"></i> List</p>
+									<p>For more details press <i class="fa fa-hand-o-right"></i><a href="../mms/mms-account.html"> here </a>.</p>
+								</div><br>
+					
+					<h4><strong>For adding Cascading payment feature press the button <i class="fa fa-hand-o-right"></i> <img src ="cas07.png" class="img-thumbnail"></i></strong></h4><br>
+					
+					
+					<table class="table table-hover table-bordered">
+									<thead>
+										<tr>
+											<th>Field</th>
+											<th>Description</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><kbd>Account id *</kbd></td>
+											<td>id of the account in admin panel</td>
+										</tr>
+										<tr>
+											<td><kbd>Account name</kbd></td>
+											<td>name of the account</td>
+										</tr>
+										<tr>
+											<td><kbd>Source MID</kbd></td>
+											<td>main MID which is being received transactions</td>
+										</tr>
+										<tr>
+											<td><kbd>Status code</kbd></td>
+											<td>status of error code of the transaction by main MID. By selected error code MIDs will be switched to the next acquirer.</td>
+										</tr>
+										<tr>
+											<td><kbd>MIDs *</kbd></td>
+											<td>MIDs which are able to reroutes the transaction to the next acquirer</td>
+										</tr>
+									</tbody>
+								</table><br>
+								
+						<div class="well well-sm"><i class="fa fa-camera-retro"></i><strong> Screenshot from Admin panel :</strong></div>		
+							<p class="img-ctr">	
+								<img src ="cas08.png" class="img-thumbnail"><br><br>
+							</p><br>
+							
+						
+							<p>Press the checkbox near MIDs for adding them to reroutes list <i class="fa fa-hand-o-down"></i></p><br>
+								<p class="img-ctr">	
+									<img src ="cas09.png" class="img-thumbnail">
+								</p><br><br>
+							<p>All "active" MIDs will take a part in reroutes the transaction to the next acquirer.</p>
+						<br><br>
+					
+					<h4><strong>For saving the settings press the button <i class="fa fa-hand-o-right"></i> <img src ="cas10.png" class="img-thumbnail"></strong></h4><br>
+					
+					</div>
+						<hr class="line">
+					<div class="panel-body">
+					
+					<h4><strong>For searching Cascading payment feature select filters <i class="fa fa-hand-o-down"></i></strong></h4><br>
+					
+					
+					<table class="table table-hover table-bordered">
+									<thead>
+										<tr>
+											<th>Field</th>
+											<th>Description</th>
+											<th><i class="fa fa-camera-retro"></i> Screenshot</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><kbd>Gate</kbd></td>
+											<td>searching by gate</td>
+											<td><img src ="cas01.png" class="img-thumbnail"></td>
+										</tr>
+										<tr>
+											<td><kbd>Merchant</kbd></td>
+											<td>searching by merchant</td>
+											<td><img src ="cas02.png" class="img-thumbnail"></td>
+										</tr>
+										<tr>
+											<td><kbd>Account</kbd></td>
+											<td>searching by account</td>
+											<td><img src ="cas03.png" class="img-thumbnail"></td>
+										</tr>
+										<tr>
+											<td><kbd>Account state</kbd></td>
+											<td>searching by status :
+												<ul>
+													<li>active</li>
+													<li>inctive</li>
+													<li>blocked</li>
+													<li>test</li>
+												</ul>
+											</td>
+											<td><img src ="cas04.png" class="img-thumbnail"></td>
+										</tr>
+										<tr>
+											<td><kbd>Merchant state</kbd></td>
+											<td>searching by status :
+												<ul>
+													<li>enabled</li>
+													<li>disabled</li>
+												</ul>
+											</td>
+											<td><img src ="cas05.png" class="img-thumbnail"></td>
+										</tr>
+									</tbody>
+								</table><br>
+					
+					<h4><strong>After selecting filters press the button <i class="fa fa-hand-o-right"></i> <img src ="cas06.png" class="img-thumbnail"></strong></h4><br><br>
+					
+					<h4><strong>Example of searching result <i class="fa fa-hand-o-down"></i></strong></h4><br>
+					
+					<table class="table table-hover table-bordered">
+									<thead>
+										<tr>
+											<th>Gate Name</th>
+											<th>Merchant Name</th>
+											<th>Merchant Account Name</th>
+											<th>MId</th>
+											<th>Response Code</th>
+											<th>Cascaded MIDs</th>
+											<th>Actions</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Test Gate</td>
+											<td>Test merchant</td>
+											<td>Test account</td>
+											<td>test_mid</td>
+											<td>Bank MID doesn't support the currency(3015)</td>
+											<td>
+												<ul>
+													<li>test_mid_1</li>
+													<li>test_mid_2</li>
+												</ul>	
+											</td>
+											<td>
+												<i class="fa fa-pencil"></i>
+												<i class="fa fa-times"></i>	
+											</td>
+										</tr>
+										<tr>
+											<td>Live Gate</td>
+											<td>Live merchant</td>
+											<td>Live account</td>
+											<td>live_mid</td>
+											<td>Bank cannot process selected amount(3106)</td>
+											<td>
+												<ul>
+													<li>live_mid_1</li>
+													<li>live_mid_2</li>
+													<li>live_mid_3</li>
+												</ul>
+											</td>
+											<td>
+												<i class="fa fa-pencil"></i>
+												<i class="fa fa-times"></i>
+											</td>
+										</tr>	
+									</tbody>
+								</table><br>	
+						
+			
+						<div class="alert alert-info mod">
+								<p><i class="fa fa-cog"></i><strong> Details:</strong></p>
+								<p>Button <i class="fa fa-pencil"></i> - allows to update cascading settings.</p>
+								<p>Button <i class="fa fa-times"></i> - allows to delete cascading settings.</p>	
+						</div><br>
+					</div>
+				</div>
+			</div>
+		</div>	
+ </body>
+</html>
