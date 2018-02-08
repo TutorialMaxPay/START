@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Chargeback Report</title>
+
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../../css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/bootstrap.min.js"></script>
+		<script src="../../js/menu.js"></script>
+		<script type="text/javascript" src="../../js/pageUP.js"></script>
+		<link rel="shortcut icon" href="../../img/maxpay.ico" type="image/x-icon">
+		<link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+		<link rel="stylesheet" href="../../css/style.css">
+	
+	</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				
+				<li><a href="../../../section-reports.html" title="Back to Reports section" onmouseover="this.style.color='#5356ac';" 
+				onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-long-arrow-left"></i></a></li>	
+				
+			
+				<li><a href="../../../../tutorial.html" title="Home"
+				onmouseover="this.style.color='#5356ac';" onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-home"></i></a></li>
+				
+				<li><a href="#" onclick="openNav()" title="Menu" onmouseover="this.style.color='#5356ac';" onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-bars"></i></a></li>
+			</ul>
+		</div>
+		
+		<div id="mySidenav" class="sidenav"><br>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" title="Close">&times;</a>
+					
+					<!-- Gate-->
+					<a href="../../../section-gate.html" title="Gate"><i class="fa fa-lg fa-fw fa-cube"></i> Gate </a>
+					<!-- User Management -->
+					<a href="../../../section-user-management.html"  title="User Management"><i class="fa fa-lg fa-fw fa-user"></i>User Management </a>
+					<!-- Reports -->
+					<a href="../../../section-reports.html"  title="Reports"><i class="fa fa-lg fa-fw fa-th-list"></i> Reports </a>					
+					<!-- MMS -->				
+					<a href="../../../section-mms.html"  title="Mms"><i class="fa fa-lg fa-fw fa-maxcdn"></i> Mms </a>				
+					<!-- HPP -->					
+					<a href="../../../section-hpp.html"  title="Hpp"><i class="fa fa-lg fa-fw fa-retweet"></i> Hpp </a>
+					<!-- Shared Tokens -->
+					<a href="../../../section-shared-tokens.html"  title="Shared Tokens"><i class="fa fa-lg fa-fw fa-retweet"></i> Shared Tokens</a>					
+					<!-- Routes -->					
+					<a href="../../../section-routes.html"  title="Routes"><i class="fa fa-lg fa-fw fa-recycle"></i> Routes</a>
+					<!-- Cascading -->					
+					<a href="../../../section-cascading.html"  title="Cascading"><i class="fa fa-lg fa-fw fa-share-alt"></i> Cascading </a>				
+					<!-- References -->						
+					<a href="../../../section-references.html"  title="References"><i class="fa fa-lg fa-fw fa-arrows-alt"></i> References </a>
+					<!-- Tools -->					
+					<a href="../../../section-tools.html"  title="Tools"><i class="fa fa-lg fa-fw fa-cogs"></i> Tools </a>			
+					<!-- Logs -->					
+					<a href="../../../section-logs.html"  title="Logs"><i class="fa fa-lg fa-fw fa-calendar"></i> Logs </a>
+			</div>				
+	</nav><br>
+	
+	<div id="main">
+		<div class="container">
+			<div class="panel-group">
+		
+				<div class="panel panel-primary" style="border: none;">
+					<div class="panel-heading" style="background-color:#799fec; border:0;">
+						<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> Reports <i class="fa fa-angle-double-right"></i> Chargeback Report </span>
+					</div>
+				
+					<!-- Content of Chargeback Report -->
+					<div class="panel-body">
+					
+					
+					<h4><strong>For searching a transaction with chargeback add a rule <i class="fa fa-hand-o-down"></i></strong></h4><br>
+						<div class="well well-sm"><i class="fa fa-camera-retro"></i><strong> Screenshot from Admin panel :</strong></div>
+					<p class="img-ctr">	
+						<img src ="trans01.png" class="img-thumbnail">
+					</p><br><br>
+
+	<h4><strong>Select a trigger to find out a necessary transaction <i class="fa fa-hand-o-down"></i></strong></h4><br>
+					
+<table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Chargeback Information</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+		<tr>
+			<td><kbd>Chargeback Date</kbd></td>
+			<td>date of the chargeback</td>
+      </tr>
+	  <tr>
+			<td><kbd>Chargeback Reason Code</kbd></td>
+			<td>code with the reason of the chargeback</td>
+      </tr>
+	  <tr>
+			<td><kbd>Chargeback Reason Message</kbd></td>
+			<td>explanation the reason of the chargeback</td>
+      </tr>
+	  <tr>
+			<td><kbd>Chargeback Type</kbd></td>
+			<td>Retrieval request, First chargeback, Second - Third chargeback, Representment, Chargeback reversal, Lost representment</td>
+      </tr>
+	  <tr>
+			<td><kbd>Chargeback Status</kbd></td>
+			<td>OPENED, REPRESENTED, REVERSED, CLOSED</td>
+      </tr>
+	</tbody>
+	</table><br>
+	
+	<table class="table table-hover table-bordered">
+	<thead>
+      <tr>
+        <th>Transaction Information</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><kbd>Date</kbd></td>
+        <td>date of the chargeback</td>
+      </tr>
+      <tr>
+        <td><kbd>Update Date</kbd></td>
+        <td>update day of the chargeback</td>
+      </tr>
+	  <tr>
+        <td><kbd>Reference</kbd></td>
+        <td>reference of the chargeback</td>
+      </tr>
+	  <tr>
+        <td><kbd>Base Reference</kbd></td>
+        <td>shows transaction history by reference</td>
+      </tr>
+	  <tr>
+        <td><kbd>Amount</kbd></td>
+        <td>amount of the transaction</td>
+      </tr>
+	  <tr>
+        <td><kbd>Base amount</kbd></td>
+        <td>original amount of the transaction</td>
+      </tr>
+	  <tr>
+        <td><kbd>Unique transaction ID</kbd></td>
+        <td>transaction ID in a merchant system</td>
+      </tr>
+	  <tr>
+        <td><kbd>Transaction Source</kbd></td>
+        <td>source of coming a transaction. It can be API, HPP, MPORTAL, ACQUIRER, IPORTAL, UNKNOWN</td>
+      </tr>
+	  <tr>
+        <td><kbd>Currency</kbd></td>
+        <td>currency of the transaction</td>
+      </tr>
+	  <tr>
+        <td><kbd>Base currency</kbd></td>
+        <td>original currency of the transaction</td>
+      </tr>
+	  <tr>
+        <td><kbd>Error Code</kbd></td>
+        <td>code which shows the error of the transaction</td>
+      </tr>
+	  <tr>
+        <td><kbd>Error Code Explanation Mapped</kbd></td>
+        <td>explanation the error of the transaction</td>
+      </tr>
+    </tbody>
+	</table><br>
+	
+	<table class="table table-hover table-bordered">
+	<thead>
+      <tr>
+        <th>Bank Information</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+		<tr>
+			<td><kbd>Bank Reference</kbd></td>
+			<td>reference of the bank</td>
+		</tr>
+		<tr>
+			<td><kbd>Bank Transaction ID</kbd></td>
+			<td>unique id of the bank transaction</td>
+		</tr>
+		<tr>
+			<td><kbd>Bank Transaction Time</kbd></td>
+			<td>bank time of the transaction</td>
+		</tr>
+		<tr>
+			<td><kbd>Bank Response Time</kbd></td>
+			<td>response time of the bank</td>
+		</tr>
+		<tr>
+			<td><kbd>Bank Status Code</kbd></td>
+			<td>code of the answer by the bank</td>
+		</tr>
+		<tr>
+			<td><kbd>Bank Reason Description</kbd></td>
+			<td>description of the transaction by bank</td>
+		</tr>
+		<tr>
+			<td><kbd>Bank Name</kbd></td>
+			<td>name of the bank</td>
+		</tr>
+		<tr>
+			<td><kbd>Bank MID</kbd></td>
+			<td>MID of the bank</td>
+		</tr>
+	</tbody>
+	</table><br>
+	
+	<table class="table table-hover table-bordered">
+	<thead>
+      <tr>
+        <th>Cardholder Information</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+		<tr>
+			<td><kbd>Ip Address</kbd></td>
+			<td>Ip address of a merchant's user</td>
+		</tr>
+		<tr>
+			<td><kbd>Email</kbd></td>
+			<td>email of a merchant's user</td>
+		</tr>
+	</tbody>
+	</table><br>
+	
+	<table class="table table-hover table-bordered">
+	<thead>
+      <tr>
+        <th>Card Information</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+		<tr>
+			<td><kbd>CC Bin</kbd></td>
+			<td>the first 6 digits of the card</td>
+		</tr>
+		<tr>
+			<td><kbd>Card Brand</kbd></td>
+			<td>brand of the card. Example: VISA, MasterCard, American Express</td>
+		</tr>
+		<tr>
+			<td><kbd>Card Type</kbd></td>
+			<td>type of the card. Example: Business credit card, Secured credit card, Prepaid card, Digital card.</td>
+		</tr>
+		<tr>
+			<td><kbd>Card Level</kbd></td>
+			<td>information about level of the card</td>
+		</tr>
+		<tr>
+			<td><kbd>Card Country</kbd></td>
+			<td>country name of the card</td>
+		</tr>
+		<tr>
+			<td><kbd>Card Country ISO3</kbd></td>
+			<td>country of the card by ISO3 standard</td>
+		</tr>
+	</tbody>
+	</table><br>
+	
+	<table class="table table-hover table-bordered">
+	<thead>
+      <tr>
+        <th>Merchant Information</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+		<tr>
+			<td><kbd>Merchant Product Name</kbd></td>
+			<td>name of merchant's product</td>
+		</tr>
+		<tr>
+			<td><kbd>Merchant Account</kbd></td>
+			<td>name of the merchant's account in admin panel</td>
+		</tr>
+		<tr>
+			<td><kbd>Merchant Name</kbd></td>
+			<td>name of the merchant in admin panel</td>
+		</tr>
+	</tbody>
+	</table><br>
+	
+	<table class="table table-hover table-bordered">
+	<thead>
+      <tr>
+        <th>General</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+		<tr>
+			<td><kbd>Test Mode</kbd></td>
+			<td>mode for testing</td>
+		</tr>
+	</tbody>
+  </table><br>
+	
+<h4><strong>Filters and their descriptions below <i class="fa fa-hand-o-down"></i></strong></h4><br>
+
+<table class="table table-hover table-bordered">
+	<thead>
+		<tr>
+			<th><i class="fa fa-filter"></i> Filter</th>
+			<th><i class="fa fa-list-alt"></i> Description</th>
+		</tr>
+	</thead>
+	<tbody> 
+		<tr>  
+			<td><kbd>equal</kbd></td> 	
+			<td>the value is equal</td>
+		</tr>
+		<tr>
+			<td><kbd>between</kbd></td>
+			<td>the value is between of two others</td>
+		</tr>
+		<tr>
+			<td><kbd>not equal</kbd></td>
+			<td>the value is not equal</td>
+		</tr>
+		<tr>
+			<td><kbd>not equal or is null</kbd></td>
+			<td>the value is not equal or is null</td>
+		</tr>
+		<tr>
+			<td><kbd>less</kbd></td>
+			<td>the value is less</td>
+		</tr>
+		<tr>
+			<td><kbd>less or equal</kbd></td>
+			<td>the value is less or equal</td>
+		</tr>
+		<tr>
+			<td><kbd>greater</kbd></td>	
+			<td>the value is greater</td>
+		</tr>
+		<tr>
+			<td><kbd>greater or equal</kbd></td>
+			<td>the value is greater or equal</td>
+		</tr>
+		<tr>
+			<td><kbd>today</kbd></td>
+			<td>display data for today</td>
+		</tr>
+		<tr>
+			<td><kbd>day ago</kbd></td>
+			<td>display data a day ago</td>
+		</tr>
+		<tr>
+			<td><kbd>yesterday</kbd></td>
+			<td>display data yesterday</td>
+		</tr>
+		<tr>
+			<td><kbd>this week</kbd></td>
+			<td>display data this week</td>
+		</tr>
+		<tr>
+			<td><kbd>week ago</kbd></td>
+			<td>display data week ago</td>
+		</tr>
+		<tr>
+			<td><kbd>last week</kbd></td>
+			<td>display data last week</td>
+		</tr>
+		<tr>
+			<td><kbd>2 weeks ago</kbd></td>
+			<td>display data 2 weeks ago</td>
+		</tr>
+		<tr>
+			<td><kbd>last 2 weeks</kbd></td>
+			<td>display data last 2 weeks</td>
+		</tr>
+		<tr>
+			<td><kbd>this month</kbd></td>
+			<td>display data for this month</td>
+		</tr>
+		<tr>
+			<td><kbd>month ago</kbd></td>
+			<td>display data month ago</td>
+		</tr>
+		<tr>
+			<td><kbd>last month</kbd></td>
+			<td>display data for last month</td>
+		</tr>
+		<tr>
+			<td><kbd>last 2 month</kbd></td>
+			<td>display data for last 2 month</td>
+		</tr>
+		<tr>
+			<td><kbd>last 6 month</kbd></td>
+			<td>display data for last 6 month</td>
+		</tr>
+		<tr>
+			<td><kbd>this year</kbd></td>
+			<td>display data for this year</td>
+		</tr>
+		<tr>
+			<td><kbd>year ago</kbd></td>
+			<td>display data for year ago</td>
+		</tr>
+		<tr>
+			<td><kbd>last year</kbd></td>
+			<td>display data of last year</td>
+		</tr>
+		<tr>
+			<td><kbd>in	</kbd></td>
+			<td>searching the data in (select the value from list)</td>
+		</tr>
+		<tr>
+			<td><kbd>not in	</kbd></td>
+			<td>searching the data not in (select the value from list)</td>
+		</tr>
+		<tr>
+			<td><kbd>not in or null</kbd></td>
+			<td>searching the data in or null (select the value from list)</td>
+		</tr>
+		<tr>
+			<td><kbd>begins with</kbd></td>
+			<td>the value begins with</td>
+		</tr>
+		<tr>
+			<td><kbd>doesn't begin with</kbd></td>
+			<td>the value does not begin with</td>
+		</tr>
+		<tr>
+			<td><kbd>doesn't begin with or null</kbd></td>
+			<td>the value does not begin with or null</td>
+		</tr>
+		<tr>
+			<td><kbd>contains</kbd></td>
+			<td>the value contains</td>
+		</tr>
+		<tr>
+			<td><kbd>doesn't contain</kbd></td>
+			<td>the value does not contain</td>
+		</tr>
+		<tr>
+			<td><kbd>doesn't contain or null</kbd></td>
+			<td>the value does not contain or null</td>
+		</tr>
+		<tr>
+			<td><kbd>ends with</kbd></td>
+			<td>the value ends with</td>
+		</tr>
+		<tr>
+			<td><kbd>doesn't end with or null</kbd></td>
+			<td>the value does not end with or null</td>
+		</tr>
+		<tr>
+			<td><kbd>is empty</kbd></td>
+			<td>the value is empty</td>
+		</tr>
+		<tr>
+			<td><kbd>is not empty</kbd></td>
+			<td>the value is not empty</td>
+		</tr>
+		<tr>
+			<td><kbd>is null</kbd></td>
+			<td>the value is null</td>
+		</tr>
+		<tr>
+			<td><kbd>is not null</kbd></td>
+			<td>the value is not null</td>
+		</tr>
+		<tr>
+			<td><kbd>wildcard</kbd></td>	
+			<td></td>
+		</tr>
+	</tbody>
+</table><br>
+	
+	<div class="alert alert-warning">
+		<p><i class="fa fa-exclamation-triangle"></i><strong> Note |</strong> you can use few rules together.</p>
+	</div><br>	
+  
+  <h4><strong>After selecting triggers choose the values for chargeback report <i class="fa fa-hand-o-down"></i></strong></h4><br>
+  
+  <div class="well well-sm"><i class="fa fa-camera-retro"></i><strong> Screenshot from Admin panel :</strong></div>
+		<p class="img-ctr">
+			<img src ="trans10.png" class="img-thumbnail">
+		</p><br><br>
+  
+
+<p>For addin the value pick out it and click on <i class="fa fa-hand-o-right"></i> <img src ="trans03.png" class="img-thumbnail"></p><br><br>
+<p>For deleting the value pick out it and click on <i class="fa fa-hand-o-right"></i> <img src ="trans04.png" class="img-thumbnail"></p><br><br>
+
+<h4><strong>Next step is to select page limit and type of the report <i class="fa fa-hand-o-down"></i></strong></h4><br>
+<table class="table table-hover table-bordered">
+    <thead>
+		<tr>
+			<th>Settings:</th>
+			<th>Description</th>
+			<th><i class="fa fa-camera-retro"></i> Screenshot</th>
+		</tr>
+    </thead>
+    <tbody>
+		<tr>
+			<td><kbd>Page Limit</kbd></td>
+			<td>limit of strings on a page</td>
+			<td><img src ="trans05.png" class="img-thumbnail"></td>
+		</tr>
+		<tr>
+			<td><kbd>Report Type</kbd></td>
+			<td>HTML allows to view in admin panel. CSV is downloaded on PC.</td>
+			<td><img src ="trans06.png" class="img-thumbnail"></td>
+		</tr>
+		<tr>
+			<td><kbd>Your custom reports</kbd></td>
+			<td>reports which can be created by yourself</td>
+			<td><img src ="trans07.png" class="img-thumbnail"></td>
+      </tr>
+	</tbody>
+</table><br>
+		<div class="alert alert-warning">
+			<p><i class="fa fa-exclamation-triangle"></i><strong> Note |</strong> Your custom reports allows to save 
+			triggers and values. You can save it and use next time.</p> 
+			<p>For creating new one selet the triggers and values and press
+			<i class="fa fa-hand-o-right"></i> <img src ="trans08.png" class="img-thumbnail"></p> 
+			<p>Next time this report will be at "Your custom reports".</p>
+		</div><br>
+					
+	<h4><strong>After all press the button <i class="fa fa-hand-o-right"></i> </strong> <img src ="trans09.png" class="img-thumbnail"></h4><br>				
+
+					</div>
+				</div>
+			</div>
+		</div>
+</div>		
+ </body>
+</html>
