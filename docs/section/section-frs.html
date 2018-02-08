@@ -25,32 +25,33 @@
             <ul class="nav nav-pills nav-stacked admin-menu">
                 <li><a href="section-gate.html"><i class="fa fa-lg fa-fw fa-cube"></i>Gate</a></li>
 				<li><a href="section-user-management.html"><i class="fa fa-lg fa-fw fa-user"></i>User Management</a></li>
-                 <li class="selected"><a href="#" class="select"><i class="fa fa-lg fa-fw fa-th-list"></i>Reports</a></li>
+                <li><a href="section-reports.html"><i class="fa fa-lg fa-fw fa-th-list"></i>Reports</a></li>
                 <li><a href="section-mms.html"><i class="fa fa-lg fa-fw fa-maxcdn"></i>Mms</a></li>
                 <li><a href="section-hpp.html"><i class="fa fa-lg fa-fw fa-retweet"></i>Hpp</a></li>
                 <li><a href="section-shared-tokens.html"><i class="fa fa-lg fa-fw fa-retweet"></i>Shared Tokens</a></li>
                 <li><a href="section-routes.html"><i class="fa fa-lg fa-fw fa-recycle"></i>Routes</a></li>
                 <li><a href="section-cascading.html"><i class="fa fa-lg fa-fw fa-share-alt"></i>Cascading</a></li>
-				<li><a href="section/section-frs.html"><i class="fa fa-lg fa-fw fa-random"></i>FRS</a></li>
+				<li class="selected"><a href="#" class="select"><i class="fa fa-lg fa-fw fa-random"></i>FRS</a></li>
                 <li><a href="section-references.html"><i class="fa fa-lg fa-fw fa-arrows-alt"></i>References</a></li>
 				<li><a href="section-tools.html"><i class="fa fa-lg fa-fw fa-cogs"></i>Tools</a></li>
                 <li><a href="section-logs.html"><i class="fa fa-lg fa-fw fa-calendar"></i>Logs</a></li>
             </ul>
         </div>
-		
-		<!--Reports section-->
-        <div class="col-md-9 well admin-content" id="reports">
-           <div class="img-top-reports"><img src="assets/img/reports.png" class="img-responsive center-block"></div>
-		   <!-- WAY -->
-				<div class="div-way"><span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> Reports</span></div>
+	
+	<!--Mms section-->
+        <div class="col-md-9 well admin-content" id="frs">
+            <div class="img-top-frs"><img src="assets/img/frs.png" class="img-responsive center-block"></div>
+			
+			<!-- WAY -->
+				<div class="div-way"><span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> FRS</span></div>
 			 <br><br>
 			<!-- H2 -->
-			<h2><i class="fa fa-th-list"></i> Reports</h2>
+			<h2><i class="fa fa-random"></i> FRS</h2>
 		   
 			<!-- INTRO TEXT -->
 			<div class="desc">
 				<p class="text-header">
-					Many types of reports can be used in the Section Reports. By using filters to analyze your data, you can draw out more information that can help you make the right decisions to improve your service.
+					The Partition MMS includes the merchant, merchant account, MID, and bank settings. This also includes a currency converter tool and the ability to see relationship between merchants and their accounts.
 				</p>
 			</div>
 			<br>
@@ -61,110 +62,16 @@
 			<div class="sub"><span class="submenu"><i class="fa fa-share"></i> Submenu </span></div>
 			<br>
 		   
-		   <h3><i class="fa fa-th"></i> Transactions</h3>
+		   <h3><i class="fa fa-lg fa-fw fa-user-md"></i> Identities</h3>
 		    <div class="desc">
 				<p class="text-header">
-							The Transaction Report shows you a list of your transactions within a given date range, as well as the source and type of the transaction. In the transaction report, you are able to include selected fields, view the details of the transaction, make a refund or void a transaction. 
+							Section Tree helps to see the full architecture between merchants and their accounts.
+							You are able to watch which accounts are assigned to merchants or see the status of the accounts and the merchants.
 				</p><br>
 				
 				<!-- INFO -->
 				<div class="info" id="info">
-					<a href="assets/pages/report/report-transactions.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
-						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
-						onmouseout="this.style.backgroundColor='#5FB9EF';">
-						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
-					</a>
-				</div><br>
-			 </div>
-				<hr class="subhr">
-					<br>
-		   
-		   
-			<h3><i class="fa fa-th"></i> Chargebacks</h3>
-		    <div class="desc">
-				<p class="text-header">
-							A Chargeback is a return of funds to a consumer that is initiated by the issuing bank of the instrument used by the consumer. In the chargeback report, you are able to add the most important fields to analyze the case. 
-				</p><br>
-				
-				<!-- INFO -->
-				<div class="info" id="info">
-					<a href="assets/pages/report/report-chargebacks.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
-						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
-						onmouseout="this.style.backgroundColor='#5FB9EF';">
-						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
-					</a>
-				</div><br>
-			 </div>
-				<hr class="subhr">
-					<br>
-		   
-		   
-			<h3><i class="fa fa-money"></i> Approve Ratio</h3>
-		    <div class="desc">
-				<p class="text-header">
-							The Approval Ratio report provides the ratio of successful transactions to declined, error, and filtered transactions. Real-time graphs and charts allow you see and understand the statistics easier. 
-				</p><br>
-				
-				<!-- INFO -->
-				<div class="info" id="info">
-					<a href="assets/pages/report/report-approve-ratio.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
-						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
-						onmouseout="this.style.backgroundColor='#5FB9EF';">
-						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
-					</a>
-				</div><br>
-			 </div>
-				<hr class="subhr">
-					<br>
-		   
-		   
-			<h3><i class="fa fa-chain"></i> Chargeback Ratio</h3>
-		    <div class="desc">
-				<p class="text-header">
-							The Chargeback Ratio report shows the ratio of chargeback transactions to successful transactions. VISA and Mastercard calculate the chargeback ratio for each MID each month. 
-				</p><br>
-				
-				<!-- INFO -->
-				<div class="info" id="info">
-					<a href="assets/pages/report/report-chargeback-ratio.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
-						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
-						onmouseout="this.style.backgroundColor='#5FB9EF';">
-						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
-					</a>
-				</div><br>
-			 </div>
-				<hr class="subhr">
-					<br>
-		   
-			
-			<h3><i class="fa fa-user"></i> Fraud Ratio</h3>
-		    <div class="desc">
-				<p class="text-header">
-							Credit card fraud is a broad term for the theft of and fraudulant use of a payment card, such as a credit card or debit card. The Fraud Ratio report provides the ratio of fraudulent transactions to valid ones. 
-				</p><br>
-				
-				<!-- INFO -->
-				<div class="info" id="info">
-					<a href="assets/pages/report/report-fraud-ratio.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
-						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
-						onmouseout="this.style.backgroundColor='#5FB9EF';">
-						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
-					</a>
-				</div><br>
-			 </div>
-				<hr class="subhr">
-					<br>
-		   
-			
-			<h3><i class="fa fa-bar-chart-o"></i> Summary</h3>
-		    <div class="desc">
-				<p class="text-header">
-							The Summary Report covers sales, refunds, chargebacks, declines, errors and filtered transactions. The report shows the number of transactions by scope and amount. Select the filters to get more detailed information by merchant, bank MID etc. 
-				</p><br>
-				
-				<!-- INFO -->
-				<div class="info" id="info">
-					<a href="assets/pages/report/report-summary.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
+					<a href="assets/pages/frs/identities.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
 						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
 						onmouseout="this.style.backgroundColor='#5FB9EF';">
 						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
@@ -175,15 +82,69 @@
 					<br>
 			
 			
-			<h3><i class="fa fa-cubes"></i> Transactions Cube</h3>
+			<h3><i class="fa fa-lg fa-fw fa-globe"></i>Plans</h3>
 		    <div class="desc">
 				<p class="text-header">
-							The Transaction Cube Report is a powerful tool for creating a extensive, particular report. Simply select the triggers and filters that you want to use for the report. 
-				</p><br>
-				
+							The merchant account in the Admin panel connects the merchant and the MID (acquiring bank account). 
+				</p>			
 				<!-- INFO -->
 				<div class="info" id="info">
-					<a href="assets/pages/report/report-transactions-cube.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
+					<a href="assets/pages/frs/Plans.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
+						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
+						onmouseout="this.style.backgroundColor='#5FB9EF';">
+						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
+					</a>
+				</div><br>
+			 </div>
+				<hr class="subhr">
+					<br>
+			
+			
+			
+			<h3><i class="fa fa-lg fa-fw fa-file-text"></i> Documents</h3>
+		    <div class="desc">
+				<p class="text-header">
+							The Bank in the Admin Panel is an integrated bank or financial institution that processes credit or debit card payments on behalf of a merchant. The term acquirer indicates that the merchant accepts or acquires credit card payments from card-issuing banks within the association. The best-known credit card associations are Visa, MasterCard, Discover, American Express, Diners Club, Japan Credit Bureau and China UnionPay.
+				</p>			
+				<!-- INFO -->
+				<div class="info" id="info">
+					<a href="assets/pages/frs/document.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
+						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
+						onmouseout="this.style.backgroundColor='#5FB9EF';">
+						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
+					</a>
+				</div><br>
+			 </div>
+				<hr class="subhr">
+					<br>
+			
+			
+			<h3><i class="fa fa-lg fa-fw fa-table"></i> Statements</h3>
+		    <div class="desc">
+				<p class="text-header">
+							The MID is defined in an agreement between a merchant and an acquiring bank for the settlement of payment card transactions. 
+				</p>			
+				<!-- INFO -->
+				<div class="info" id="info">
+					<a href="assets/pages/frs/Statements.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
+						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
+						onmouseout="this.style.backgroundColor='#5FB9EF';">
+						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
+					</a>
+				</div><br>
+			 </div>
+				<hr class="subhr">
+					<br>
+			
+			
+			<h3><i class="fa fa-lg fa-fw fa-list-alt"></i> Balance Records</h3>
+		    <div class="desc">
+				<p class="text-header">
+							Every payment made with a credit card involves the transfer of funds to a merchant account that a merchant has at a bank. The merchant has full responsibility for the transactions that occur with their account and each bank has its own terms of service to which account-holders must adhere. 
+				</p>			
+				<!-- INFO -->
+				<div class="info" id="info">
+					<a href="assets/pages/frs/balance-records.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
 						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
 						onmouseout="this.style.backgroundColor='#5FB9EF';">
 						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
@@ -193,27 +154,48 @@
 				<hr class="subhr">
 					<br>
 					
-					<h3><i class="fa fa-lg fa-fw fa-openid"></i> Request Manager</h3>
+					<h3><i class="fa fa-lg fa-fw fa-list-alt"></i> Balance Snapshots</h3>
 		    <div class="desc">
 				<p class="text-header">
-							The Transaction Cube Report is a powerful tool for creating a extensive, particular report. Simply select the triggers and filters that you want to use for the report. 
-				</p><br>
-				
+							Every payment made with a credit card involves the transfer of funds to a merchant account that a merchant has at a bank. The merchant has full responsibility for the transactions that occur with their account and each bank has its own terms of service to which account-holders must adhere. 
+				</p>			
 				<!-- INFO -->
-				<br>
+				<div class="info" id="info">
+					<a href="assets/pages/frs/balance-snapshots.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
+						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
+						onmouseout="this.style.backgroundColor='#5FB9EF';">
+						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
+					</a>
+				</div><br>
 			 </div>
 				<hr class="subhr">
 					<br>
 					
-					<h3><i class="fa fa-lg fa-fw fa-random"></i></i> FRS</h3>
+					<h3><i class="fa fa-lg fa-fw fa-bars"></i> Features</h3>
 		    <div class="desc">
 				<p class="text-header">
-							The Transaction Cube Report is a powerful tool for creating a extensive, particular report. Simply select the triggers and filters that you want to use for the report. 
-				</p><br>
-				
+							Every payment made with a credit card involves the transfer of funds to a merchant account that a merchant has at a bank. The merchant has full responsibility for the transactions that occur with their account and each bank has its own terms of service to which account-holders must adhere. 
+				</p>			
 				<!-- INFO -->
 				<div class="info" id="info">
-					<a href="assets/pages/report/report-frs.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
+					<a href="assets/pages/frs/features.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
+						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
+						onmouseout="this.style.backgroundColor='#5FB9EF';">
+						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
+					</a>
+				</div><br>
+			 </div>
+				<hr class="subhr">
+					<br>
+					
+					<h3><i class="fa fa-lg fa-fw fa-info"></i> Payment details</h3>
+		    <div class="desc">
+				<p class="text-header">
+							Every payment made with a credit card involves the transfer of funds to a merchant account that a merchant has at a bank. The merchant has full responsibility for the transactions that occur with their account and each bank has its own terms of service to which account-holders must adhere. 
+				</p>			
+				<!-- INFO -->
+				<div class="info" id="info">
+					<a href="assets/pages/frs/payment-details.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
 						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
 						onmouseout="this.style.backgroundColor='#5FB9EF';">
 						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
@@ -224,43 +206,25 @@
 					<br>
 			
 			
-			<h3><i class="fa fa-clock-o"></i> Scheduled</h3>
+			<h3><i class="fa fa-lg fa-fw fa-book"></i> Wallets</h3>
 		    <div class="desc">
 				<p class="text-header">
-							Scheduled reports allow you to get data statistics sent to your email. Just select the kind of the report and it will come at the specified time. 
-				</p><br>
-				
+							Currency converter software is designed to check the value of one currency with another and convert it. The exchange rate is based on the current market or bank exchange rates. 
+				</p>			
 				<!-- INFO -->
 				<div class="info" id="info">
-					<a href="assets/pages/report/report-scheduled.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
+					<a href="assets/pages/frs/wallet.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
 						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
 						onmouseout="this.style.backgroundColor='#5FB9EF';">
 						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
 					</a>
 				</div><br>
-			 </div>
-				<hr class="subhr">
-					<br>
-			
-			
-			<h3><i class="fa fa-sliders"></i> Custom</h3>
-		    <div class="desc">
-				<p class="text-header">
-							Custom reports can be made by selecting the settings which you need and saving it. Next time, you just need to open the saved report. 
-				</p><br>
-				
-				<!-- INFO -->
-				<div class="info" id="info">
-					<a href="assets/pages/report/report-custom.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
-						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
-						onmouseout="this.style.backgroundColor='#5FB9EF';">
-						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
-					</a>
-				</div><br>
-			 
+			 </div><br>
         </div>
-		</div>
-	</div>	
+	
+	 </div>
+</div><br>
+
 
 
 <footer class="container-fluid text-center">
@@ -270,5 +234,6 @@
 		</div>
 	</div>	
 </footer>    
+
 </body>
-</html>			
+</html>		
