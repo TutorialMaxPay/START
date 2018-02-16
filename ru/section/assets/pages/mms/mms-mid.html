@@ -79,13 +79,7 @@
 				</li>
 				<li ><a data-toggle="tab" href="#mid-list">
 					<i class="fa fa-lg fa-fw fa-th-list" style="color:#799fec;"></i> List</a>
-				</li>
-				<li ><a data-toggle="tab" href="#mid-create-shortcode">
-					<i class="fa fa-lg fa-fw fa-plus-square" style="color:#799fec;"></i> Create Shortcode</a>
-				</li>
-				<li ><a data-toggle="tab" href="#mid-list-shortcode">
-					<i class="fa fa-lg fa-fw fa-th-list" style="color:#799fec;"></i> List Shortcodes</a>
-				</li>
+				
 			</ul>
 			
 			<div class="tab-content">
@@ -98,11 +92,11 @@
 						<div class="panel-body">
 					
 						<div class="alert alert-info">
-							<p><i class="fa fa-info-circle"></i><strong> Description:</strong></p>
-							<p>Section Create allows to assign Mid parameters to Admin portal.</p>
+							<p><i class="fa fa-info-circle"></i><strong> Назначение:</strong></p>
+							<p>Секция предназначена для создания MID в админ панели.</p>
 						</div>
 					
-						<h4><strong>For creating an integration with bank fill up the fields <i class="fa fa-hand-o-down"></i></strong></h4><br>
+						<h4><strong>Для создания интеграции с банком заполните поля <i class="fa fa-hand-o-down"></i></strong></h4><br>
 					
 						<table class="table table-hover table-bordered">
 									<thead>
@@ -115,75 +109,75 @@
 									<tbody>
 										<tr>
 											<td><kbd>Merchant *</kbd></td>
-											<td>name of the merchant (select from the list of merchants)</td>
+											<td>Название мерчанта (Выбирете из списка)</td>
 											<td>Test_merchant</td>
 										</tr>
 										<tr>
 											<td><kbd>MID name *</kbd></td>
-											<td>name of the mid in admin panel</td>
+											<td>Название MID</td>
 											<td>test_mid</td>
 										</tr>
 										<tr>
 											<td><kbd>MID login *</kbd></td>
-											<td>login of the mid (settings by the bank)</td>
+											<td>Данные, выдаваемые банком</td>
 											<td>login123</td>
 										</tr>
 										
 										<tr>
 											<td><kbd>MID password *</kbd></td>
-											<td>password of the mid (settings by the bank)</td>
+											<td>Пароль, выдаваемый банком</td>
 											<td>12345678</td>
 										</tr>
 										<tr>
 											<td><kbd>Bank Name</kbd></td>
-											<td>name of the bank (select from the list of banks)</td>
+											<td>Название банка</td>
 											<td>Be2bill</td>
 										</tr>
 										<tr>
 											<td><kbd>Descriptor Phone</kbd></td>
-											<td>phone of the descriptor</td>
+											<td>Телефонный номер</td>
 											<td>1800-123-123-11</td>
 										</tr>
 										<tr>
 											<td><kbd>Descriptor Merchant</kbd></td>
-											<td>descriptor of the merchant</td>
+											<td>Дескриптор мерчанта</td>
 											<td>DescTestMerchant</td>
 										</tr>
 										<tr>
 											<td><kbd>Available currencies</kbd></td>
-											<td>currencies which are supported by mid</td>
+											<td>Доступная валюта</td>
 											<td>Yes</td>
 										</tr>
 										<tr>
 											<td><kbd>Default for gate</kbd></td>
-											<td>make a mid default to the gate (select from the list of gates)</td>
+											<td>Сделать мид "по умолчанию" для шлюза</td>
 											<td>Live gate</td>
 										</tr>
 										<tr>
 											<td><kbd>3d mid</kbd></td>
-											<td>support 3D payments</td>
+											<td>Поддерживаются 3-факторная аутентификация</td>
 											<td>Yes</td>
 										</tr>
 										<tr>
 											<td><kbd>Aggregated mid</kbd></td>
-											<td>mid is available for another merchants</td>
+											<td>Доступен для других мерчантов</td>
 											<td>Yes</td>
 										</tr>
 									</tbody>
 								</table><br>
 					
 							<div class="alert alert-warning">
-								<p><i class="fa fa-exclamation-triangle"></i><strong> Note |</strong> Always fill up the fields with *</p>
+								<p><i class="fa fa-exclamation-triangle"></i><strong> Пометка |</strong> Всегда заполняйте поля помеченные *</p>
 							</div>
 						
-							<div class="well well-sm"><i class="fa fa-camera-retro"></i><strong> Screenshot from Admin panel :</strong></div>
+							<div class="well well-sm"><i class="fa fa-camera-retro"></i><strong> Скриншот :</strong></div>
 								<p class="img-ctr">
 									<img src ="mms21.png" class="img-thumbnail">
 								</p><br><br>
 								
-							<p><kbd>Add custom auth parameter</kbd> - allows to add complementary parameters which should be sent to acquiring bank.</p><br>	
+							<p><kbd>Add custom auth parameter</kbd> - добавить дополнительные поля выданные банком.</p><br>	
 					
-							<h4><strong>After all fields up the finish line is to press the button <i class="fa fa-hand-o-right"></i> <img src ="mms22.png" class="img-thumbnail"></strong></h4><br>
+							<h4><strong>После заполнения всех полей нажмите на кнопку <i class="fa fa-hand-o-right"></i> <img src ="mms22.png" class="img-thumbnail"></strong></h4><br>
 						</div>
 					</div>
 				</div>
@@ -198,11 +192,11 @@
 						<div class="panel-body">
 					
 							<div class="alert alert-info">
-								<p><i class="fa fa-info-circle"></i><strong> Description:</strong></p>
-								<p>Inset List allows to find  Mids in Admin portal.</p>
+								<p><i class="fa fa-info-circle"></i><strong> Назначение:</strong></p>
+								<p>Отображение заведенных MID в админ панели.</p>
 							</div>
 					
-							<h4><strong>Select filters for searching <i class="fa fa-hand-o-down"></i></strong></h4><br>	
+							<h4><strong>Выбирете фильтры для поиска <i class="fa fa-hand-o-down"></i></strong></h4><br>	
 						
 							<table class="table table-hover table-bordered">
 									<thead>
@@ -215,30 +209,30 @@
 									<tbody>
 										<tr>
 											<td><kbd>Gate</kbd></td>
-											<td>searching by gate name</td>
+											<td>Поиск по шлюзу</td>
 											<td><img src ="mms12.png" class="img-thumbnail"></td>
 										</tr>
 										<tr>
 											<td><kbd>Merchant</kbd></td>
-											<td>searching by merchant name</td>
+											<td>Поиск по названию мерчанта</td>
 											<td><img src ="mms13.png" class="img-thumbnail"></td>
 										</tr>
 										<tr>
 											<td><kbd>Bank</kbd></td>
-											<td>searching by bank name</td>
+											<td>Поиск по банку</td>
 											<td><img src ="mms16.png" class="img-thumbnail"></td>
 										</tr>
 										<tr>
 											<td><kbd>Mid</kbd></td>
-											<td>searching by mid name</td>
+											<td>Поиск по названию мида</td>
 											<td><img src ="mms23.png" class="img-thumbnail"></td>
 										</tr>
 									</tbody>
 								</table>
 					
-					<h4><strong>After selecting filters press the button <i class="fa fa-hand-o-right"></i> <img src ="mms11.png" class="img-thumbnail"></strong></h4><br>
+					<h4><strong>После заполнения всех полей нажмите на кнопку <i class="fa fa-hand-o-right"></i> <img src ="mms11.png" class="img-thumbnail"></strong></h4><br>
 					
-					<h4><strong>Example of searching result <i class="fa fa-hand-o-down"></i></strong></h4><br>					
+					<h4><strong>Примеры <i class="fa fa-hand-o-down"></i></strong></h4><br>					
 					
 						<table class="table table-hover table-bordered">
 									<thead>
@@ -276,8 +270,8 @@
 								</table><br>
 								
 								<div class="alert alert-info mod">
-									<p><i class="fa fa-cog"></i><strong> Details:</strong></p>
-									<p><i class="fa fa-pencil"></i> Update Mid - allows to change the Mid's settings.</p>
+									<p><i class="fa fa-cog"></i><strong> Детали:</strong></p>
+									<p><i class="fa fa-pencil"></i> Update Mid - возможность поменять настройки для MID.</p>
 								</div>
 					
 						</div>
