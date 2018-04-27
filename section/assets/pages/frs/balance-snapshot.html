@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <title>Balance Records</title>
+        <title>Balance Snapsho</title>
 
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -76,19 +76,18 @@
 			
 			<ul class="nav nav-tabs">
 				
-				<li class="active"><a data-toggle="tab" href="#mid-create">
-					<i class="fa fa-lg fa-fw fa-plus-square" style="color:#799fec;"></i> Create</a>
+				<li class="active"><a data-toggle="tab" href="#mid-list">
+					<i class="fa fa-lg fa-fw fa-plus-square" style="color:#799fec;"></i> List</a>
 				</li>
-				<li ><a data-toggle="tab" href="#mid-list">
-					<i class="fa fa-lg fa-fw fa-th-list" style="color:#799fec;"></i> List</a>
+				
 				<li ><a data-toggle="tab" href="#mid-calc">
-					<i class="fa fa-lg fa-fw fa-refresh" style="color:#799fec;"></i> Calculate</a>
+					<i class="fa fa-lg fa-fw fa-refresh" style="color:#799fec;"></i> Recalculate</a>
 				
 			</ul>
 			
 			<div class="tab-content">
 				<!--Enter information about Mid Create -->
-				<div id="mid-create" class="tab-pane fade in active">
+				<!--<div id="mid-create" class="tab-pane fade in active">
 					<div class="panel panel-primary" style="border: none;">
 						<div class="panel-heading" style="background-color:#799fec; border:0;">
 							<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> FRS <i class="fa fa-angle-double-right"></i> Balance Records <i class="fa fa-angle-double-right"></i> Create</span> 
@@ -210,21 +209,21 @@
 								
 						</div>
 					</div>
-				</div>
+				</div> -->
 				
 				<div id="mid-calc" class="tab-pane fade">
 					<div class="panel panel-primary" style="border: none;">
 						<div class="panel-heading" style="background-color:#799fec; border:0;">
-							<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> FRS <i class="fa fa-angle-double-right"></i> Balance Records <i class="fa fa-angle-double-right"></i> Calculate</span> 
+							<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> FRS <i class="fa fa-angle-double-right"></i> Balance Snapshot <i class="fa fa-angle-double-right"></i> Recalculate</span> 
 						</div>
 						<div class="panel-body">
 					
 						<div class="alert alert-info">
 							<p><i class="fa fa-info-circle"></i><strong> Description:</strong></p>
-							<p>Calculation section allows to calculate all records from chosen period if it has been added or changed balance records.</p>
+							<p>If fees had been changed function "Recalculate" allow recalculate chosen balance snapshots</p>
 						</div>
 					
-						<h4><strong>Set up fields to calculate fees<i class="fa fa-hand-o-down"></i></strong></h4><br>
+						<h4><strong>Set up fields to Recalculate fees<i class="fa fa-hand-o-down"></i></strong></h4><br>
 					
 						<table class="table table-hover table-bordered">
 									<thead>
@@ -236,14 +235,14 @@
 									</thead>
 									<tbody>
 										<tr>
-											<td><kbd>Identity *</kbd></td>
-											<td>Previously setted up Fee rules</td>
-											<td>Test_merchant</td>
+											<td><kbd>Wallet Name *</kbd></td>
+											<td>Merchant's wallet name</td>
+											<td>Bank_wallet</td>
 										</tr>
 										<tr>
-											<td><kbd>Fee</kbd></td>
-											<td>Fee rule in identity</td>
-											<td>test_rule_payout</td>
+											<td><kbd>Currency *</kbd></td>
+											<td>Currency of transactios</td>
+											<td>USD</td>
 										</tr>
 										<tr>
 											<td><kbd>Start Date *</kbd></td>
@@ -252,25 +251,11 @@
 										</tr>
 										
 										<tr>
-											<td><kbd>Finish Date *</kbd></td>
-											<td>date to finish fee</td>
-											<td>2018/04/27 00:00</td>
-										</tr>
-										<tr>
-											<td><kbd>Strategy *</kbd></td>
-											<td>Current or Historical</td>
-											<td>Historical</td>
-										</tr>
-										<tr>
-											<td><kbd>Entity *</kbd></td>
-											<td>Type of fee</td>
-											<td>Recurring fee</td>
-										</tr>
-									    <tr>
-											<td><kbd>Apply Balance Delta *</kbd></td>
+											<td><kbd>Test Mode *</kbd></td>
 											<td>Yes|No</td>
 											<td>Yes</td>
 										</tr>
+										
 									</tbody>
 								</table><br>
 					
@@ -278,7 +263,7 @@
 								<p><i class="fa fa-exclamation-triangle"></i><strong> Note |</strong> Always fill up the fields with *</p>
 							</div>
 						
-							<h4><strong>After set up the settings press the button <i class="fa fa-hand-o-right"></i> <img src ="Calc.PNG" class="img-thumbnail"></strong></h4><br><br>
+							<h4><strong>After set up the settings press the button <i class="fa fa-hand-o-right"></i> <img src ="recalc.PNG" class="img-thumbnail"></strong></h4><br><br>
 								
 								
 					
@@ -289,16 +274,16 @@
 				
 				
 				<!--Enter information about Mid List -->
-				<div id="mid-list" class="tab-pane fade">
+				<div id="mid-list" class="tab-pane fade in active">
 					<div class="panel panel-primary" style="border: none;">
 						<div class="panel-heading" style="background-color:#799fec; border:0;">
-							<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> FRS <i class="fa fa-angle-double-right"></i> Balance records <i class="fa fa-angle-double-right"></i> List</span>  
+							<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> FRS <i class="fa fa-angle-double-right"></i> Balance snapshot <i class="fa fa-angle-double-right"></i> List</span>  
 						</div>
 						<div class="panel-body">
 					
 							<div class="alert alert-info">
 								<p><i class="fa fa-info-circle"></i><strong> Description:</strong></p>
-								<p>Inset List allows to find balance records. Also if fees had been changed function "Recalculate" allow dismiss and calculate again chosen balance records</p>
+								<p>Inset List allows to find balance snapshots.</p>
 							</div>
 					
 							<h4><strong>Select filters for searching <i class="fa fa-hand-o-down"></i></strong></h4><br>	
@@ -306,51 +291,63 @@
 							<table class="table table-hover table-bordered">
 									<thead>
 										<tr>
-											<th>Field</th>
+											<th>Condition</th>
 											<th>Description</th>
-											<th><i class="fa fa-camera-retro"></i> Screenshot</th>
+											
 										</tr>
 									</thead>
 									<tbody>
-										<tr>
-											<td><kbd>Identity *</kbd></td>
-											<td>Previously setted up Fee rules</td>
-											<td>Test_merchant</td>
+									    <tr>
+											<td><kbd>Date</kbd></td>
+											<td>Date of action</td>
+											
 										</tr>
 										<tr>
-											<td><kbd>Without Invoice</kbd></td>
-											<td>With document "Invoice"</td>
+											<td><kbd>Active</kbd></td>
 											<td>Yes|No</td>
+											
 										</tr>
 										<tr>
-											<td><kbd>Invoice</kbd></td>
-											<td>Choose from list</td>
-											<td>All</td>
+											<td><kbd>Wallet name</kbd></td>
+											<td>Name of merchant wallet</td>
+											
 										</tr>
 										<tr>
-											<td><kbd>Wallet</kbd></td>
-											<td>Choose merchant's wallet</td>
-											<td>Bank_fee</td>
-										</tr>
-										<tr>
-											<td><kbd>Condition</kbd></td>
-											<td>Custom conditions for searching</td>
-											<td>Billing Date</td>
+											<td><kbd>Currency</kbd></td>
+											<td>Currency of transaction</td>
+											
 										</tr>
 										
+										<tr>
+											<td><kbd>Merchant name</kbd></td>
+											<td>name of the merchant</td>
+											
+										</tr>
+										<tr>
+											<td><kbd>Merchant account</kbd></td>
+											<td>merchant's account</td>
+											
+										</tr>
+										<tr>
+											<td><kbd>Bank id</kbd></td>
+											<td>name of bank</td>
+											
+										</tr>
+										<tr>
+											<td><kbd>Bank mid id</kbd></td>
+											<td>Name of mid</td>
+											
+										</tr>
+										
+										
 									</tbody>
-								</table>
+								</table><br>
 					
-					<h4><strong>After selecting filters press the button <i class="fa fa-hand-o-right"></i> <img src ="Run.PNG" class="img-thumbnail">  If it needed click on the buttons  <i class="fa fa-hand-o-right"><img src ="Buttons.PNG" class="img-thumbnail"></i></strong></h4><br>
+					<h4><strong>After selecting filters press the button <i class="fa fa-hand-o-right"></i> <img src ="Apply.PNG" class="img-thumbnail"></strong></h4><br>
 					
 					
 								
-								<div class="alert alert-info mod">
-									<p><i class="fa fa-cog"></i><strong> Details:</strong></p>
-									<p><i class="fa fa-pencil"></i> Update - allows to change the settings.</p>
-									<p><i class="fa fa-eye"></i> View details - details of balance record.</p>
-                                    <p><i class="fa fa-user"></i> View audit log - change logs.</p>									
-								</div><br>
+								
 					
 						</div>
 					</div>

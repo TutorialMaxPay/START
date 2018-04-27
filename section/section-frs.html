@@ -131,7 +131,8 @@
 			<h3><i class="fa fa-lg fa-fw fa-list-alt"></i> Balance Records</h3>
 		    <div class="desc">
 				<p class="text-header">
-							Section consist of report which display balance records by time and wallets filters.
+							Section consist of report which display balance records by time and wallets filters. 
+							You can dismiss or recalculate balance rule if fee had been changed. Also you can calculate new fee in the relevant section.
 				</p>			
 				<!-- INFO -->
 				<div class="info" id="info">
@@ -145,10 +146,29 @@
 				<hr class="subhr">
 					<br>
 					
+					<h3><i class="fa fa-lg fa-fw fa-list-alt"></i> Balance Slices</h3>
+		    <div class="desc">
+				<p class="text-header">
+							Slice  has the same goal as snapshot but  store value of "the balance difference" from point A till point B (period is also 12 hours now).
+				</p>			
+				<!-- INFO -->
+				<div class="info" id="info">
+					<a href="assets/pages/frs/balance-slices.html" target="_blank" style="color:#FFFFFF; font-size:14px; background-color:#5FB9EF; border:none;"
+						class="btn btn-info" role="button" onmouseover="this.style.backgroundColor='#5356ac';"
+						onmouseout="this.style.backgroundColor='#5FB9EF';">
+						 Get more details <i class="fa fa-info-circle" style="margin-left:3px;"></i>
+					</a>
+				</div><br>
+			 </div>
+				<hr class="subhr">
+					<br>
+					
 					<h3><i class="fa fa-lg fa-fw fa-list-alt"></i> Balance Snapshots</h3>
 		    <div class="desc">
 				<p class="text-header">
-							Section consist of report which display last correct data of balance. This process doing automatically every day.
+							Snapshot aggregates all balance records into  one entity every 12 hours and accumulate  balance value as one number. 
+							It allows  not calculate balance based on balance records each time. It is necessary to sum all snapshots and add balance records from the last snapshot generation time till now. 
+							Snapshot is generated cross-sectional  according to different groupings   of the balance
 				</p>			
 				<!-- INFO -->
 				<div class="info" id="info">
@@ -182,7 +202,7 @@
 					<h3><i class="fa fa-lg fa-fw fa-info"></i> Payment details</h3>
 		    <div class="desc">
 				<p class="text-header">
-							List, create and link payment details 
+							List, create and link previously created documents in  payment details 
 				</p>			
 				<!-- INFO -->
 				<div class="info" id="info">
