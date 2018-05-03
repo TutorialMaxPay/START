@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Payment-details</title>
+
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../../css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/bootstrap.min.js"></script>
+		<script src="../../js/menu.js"></script>
+		<script type="text/javascript" src="../../js/pageUP.js"></script>
+		<link rel="shortcut icon" href="../../img/maxpay.ico" type="image/x-icon">
+		<link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+		<link rel="stylesheet" href="../../css/style.css">
+		
+		
+	</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				
+				<li><a href="../../../section-frs.html" title="Back to FRS section" onmouseover="this.style.color='#5356ac';" 
+				onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-long-arrow-left"></i></a></li>	
+				
+			
+				<li><a href="../../../../tutorial.html" title="Home"
+				onmouseover="this.style.color='#5356ac';" onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-home"></i></a></li>
+				
+				<li><a href="#" onclick="openNav()" title="Menu" onmouseover="this.style.color='#5356ac';" onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-bars"></i></a></li>
+			</ul>
+		</div>
+		
+		<div id="mySidenav" class="sidenav"><br>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" title="Close">&times;</a>
+					
+					<!-- Gate-->
+					<a href="../../../section-gate.html" title="Gate"><i class="fa fa-lg fa-fw fa-cube"></i> Gate </a>
+					<!-- User Management -->
+					<a href="../../../section-user-management.html"  title="User Management"><i class="fa fa-lg fa-fw fa-user"></i>User Management </a>
+					<!-- Reports -->
+					<a href="../../../section-reports.html"  title="Reports"><i class="fa fa-lg fa-fw fa-th-list"></i> Reports </a>					
+					<!-- MMS -->				
+					<a href="../../../section-mms.html"  title="Mms"><i class="fa fa-lg fa-fw fa-maxcdn"></i> Mms </a>				
+					<!-- HPP -->					
+					<a href="../../../section-hpp.html"  title="Hpp"><i class="fa fa-lg fa-fw fa-retweet"></i> Hpp </a>
+					<!-- Shared Tokens -->
+					<a href="../../../section-shared-tokens.html"  title="Shared Tokens"><i class="fa fa-lg fa-fw fa-retweet"></i> Shared Tokens</a>					
+					<!-- Routes -->					
+					<a href="../../../section-routes.html"  title="Routes"><i class="fa fa-lg fa-fw fa-recycle"></i> Routes</a>
+					<!-- Cascading -->					
+					<a href="../../../section-cascading.html"  title="Cascading"><i class="fa fa-lg fa-fw fa-share-alt"></i> Cascading </a>	
+					<!--FRS-->
+					<a href="../../../section-frs.html"  title="FRS"><i class="fa fa-lg fa-fw fa-random"></i> FRS </a>
+					<!-- References -->						
+					<a href="../../../section-references.html"  title="References"><i class="fa fa-lg fa-fw fa-arrows-alt"></i> References </a>
+					<!-- Tools -->					
+					<a href="../../../section-tools.html"  title="Tools"><i class="fa fa-lg fa-fw fa-cogs"></i> Tools </a>			
+					<!-- Logs -->					
+					<a href="../../../section-logs.html"  title="Logs"><i class="fa fa-lg fa-fw fa-calendar"></i> Logs </a>
+			</div>				
+</nav><br>
+
+<div id="main">
+		<div class="container">
+			
+			<ul class="nav nav-tabs">
+				
+				<li class="active"><a data-toggle="tab" href="#mid-create">
+					<i class="fa fa-lg fa-fw fa-plus-square" style="color:#799fec;"></i> Create</a>
+				</li>
+				<li ><a data-toggle="tab" href="#mid-list">
+					<i class="fa fa-lg fa-fw fa-th-list" style="color:#799fec;"></i> List</a>
+				<li ><a data-toggle="tab" href="#mid-link">
+					<i class="fa fa-lg fa-fw fa-plus-square" style="color:#799fec;"></i> Linc</a>
+				
+			</ul>
+			
+			<div class="tab-content">
+				<!--Enter information about Mid Create -->
+				<div id="mid-create" class="tab-pane fade in active">
+					<div class="panel panel-primary" style="border: none;">
+						<div class="panel-heading" style="background-color:#799fec; border:0;">
+							<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> FRS <i class="fa fa-angle-double-right"></i> Payment Details <i class="fa fa-angle-double-right"></i> Create</span> 
+						</div>
+						<div class="panel-body">
+					
+						<div class="alert alert-info">
+							<p><i class="fa fa-info-circle"></i><strong> Назначение:</strong></p>
+							<p>Данная секция позволяет вручную создать Платежные детали.</p>
+						</div>
+					
+						<h4><strong>Для создания Платежных деталей заполните поля <i class="fa fa-hand-o-down"></i></strong></h4><br>
+					
+						<table class="table table-hover table-bordered">
+									<thead>
+										<tr>
+											<th>Field</th>
+											<th>Description</th>
+											<th>Example</th>
+										</tr>
+									</thead>
+									<tbody>
+									    <tr>
+											<td><kbd>Owner *</kbd></td>
+											<td>PSP or Identity</td>
+											<td>PSP</td>
+										</tr>
+										<tr>
+											<td><kbd>Identity</kbd></td>
+											<td>Название Identity</td>
+											<td>Test_merchant</td>
+										</tr>
+										<tr>
+											<td><kbd>Name *</kbd></td>
+											<td>Название Платежных деталей</td>
+											<td>test_account</td>
+										</tr>
+										<tr>
+											<td><kbd>Content *</kbd></td>
+											<td>Поле для заполнения</td>
+											<td>TEST</td>
+										</tr>
+										
+										<tr>
+											<td><kbd>Placeholders</kbd></td>
+											<td>От чьего имени документ</td>
+											<td>Michael</td>
+										</tr>
+										
+										
+									</tbody>
+								</table><br>
+					
+							<div class="alert alert-warning">
+								<p><i class="fa fa-exclamation-triangle"></i><strong> Заметка |</strong> Всегда заполняйте поля помеченные *</p>
+							</div>
+						
+							<h4><strong>После установки настроек нажмите на кнопку <i class="fa fa-hand-o-right"></i> <img src ="Save.PNG" class="img-thumbnail"></strong></h4><br><br>
+								
+								
+						</div>
+					</div>
+				</div>
+				
+				<div id="mid-link" class="tab-pane fade">
+					<div class="panel panel-primary" style="border: none;">
+						<div class="panel-heading" style="background-color:#799fec; border:0;">
+							<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> FRS <i class="fa fa-angle-double-right"></i> Payment Details <i class="fa fa-angle-double-right"></i> Linc</span> 
+						</div>
+						<div class="panel-body">
+					
+							<div class="alert alert-info">
+								<p><i class="fa fa-info-circle"></i><strong> Назначение:</strong></p>
+								<p>Прилинкуйте ваши платежные детали.</p>
+							</div><br>
+						
+						<h4><strong>Для отображения и создания следуйте инструкции <i class="fa fa-hand-o-down"></i></strong></h4><br>
+						
+						</div>
+				<hr class="line">
+				<div class="panel-body">
+						
+					<div class="well well-sm" style="background-color:#F5F7F9; text-align: center;"><h4><i class="fa fa-th-list"></i> LIST</h4></div><br>
+						
+						
+						<table class="table table-hover table-bordered">
+									<thead>
+										<tr>
+											<th>Rule</th>
+											<th>Description</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><kbd>Identity</kbd></td>
+											<td>Название identity</td>
+										</tr>
+										<tr>
+											<td><kbd>Name</kbd></td>
+											<td>Название Платежных деталей</td>
+										</tr>
+										<tr>
+											<td><kbd>Content</kbd></td>
+											<td>Контент</td>
+										</tr>
+										<tr>
+											<td><kbd>Owner</kbd></td>
+											<td>Владелец Платежных деталей</td>
+										</tr>
+										
+									</tbody>
+								</table><br>
+								
+								<h4><strong>После заполнения полей нажмите на кнопку <i class="fa fa-hand-o-right"></i> <img src ="Apply.PNG" class="img-thumbnail"></strong></h4><br><br>
+								
+								<div class="alert alert-info mod">
+									<p><i class="fa fa-cog"></i><strong> Детали:</strong></p>
+									<p><i class="fa fa-pencil"></i> Update - редактирование.</p>
+									<p><i class="fa fa-trash-o"></i> Delete - удаление.</p>
+                                    <p><i class="fa fa-user"></i> View audit log - логи изменений.</p>									
+								</div><br>
+					
+					
+				      <hr class="line">
+				
+						
+					<div class="well well-sm" style="background-color:#F5F7F9; text-align: center;"><h4><i class="fa fa-plus-square"></i> CREATE</h4></div><br>
+					
+					<h4><strong>Для создания Link заполните поля <i class="fa fa-hand-o-down"></i></strong></h4><br>
+					
+					<table class="table table-hover table-bordered">
+									<thead>
+										<tr>
+											<th>Rule</th>
+											<th>Description</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+										<tr>
+											<td><kbd>Identity *</kbd></td>
+											<td>Название identity.</td>
+										</tr>
+										<tr>
+										    <td><kbd>Payment Details *</kbd></td>
+											<td>Название Платежных деталей</td>
+										</tr>
+										<tr>
+											<td><kbd>Placeholder Values</kbd></td>
+											<td>Заполнитель</td>
+										</tr>
+										<tr>
+											<td><kbd>Active *</kbd></td>
+											<td>Yes|No</td>
+										</tr>
+										
+									</tbody>
+								</table><br>
+					
+					
+							
+						<h4><strong>После настройки нажмите на кнопку <i class="fa fa-hand-o-right"></i> <img src ="Save.PNG" class="img-thumbnail"></strong></h4><br><br>
+								
+					
+							
+						</div>
+					</div>
+				</div>
+				
+				
+				<!--Enter information about Mid List -->
+				<div id="mid-list" class="tab-pane fade">
+					<div class="panel panel-primary" style="border: none;">
+						<div class="panel-heading" style="background-color:#799fec; border:0;">
+							<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> FRS <i class="fa fa-angle-double-right"></i> Payment Details <i class="fa fa-angle-double-right"></i> List</span>  
+						</div>
+						<div class="panel-body">
+					
+							<div class="alert alert-info">
+								<p><i class="fa fa-info-circle"></i><strong> Назначение:</strong></p>
+								<p>Позволяет найти платежные детали</p>
+							</div>
+					
+							<h4><strong>Выберите фильтры для поиска <i class="fa fa-hand-o-down"></i></strong></h4><br>	
+						
+							<table class="table table-hover table-bordered">
+									<thead>
+										<tr>
+											<th>Field</th>
+											<th>Description</th>
+											<th>Example</th>
+										</tr>
+									</thead>
+									<tbody>
+									    <tr>
+											<td><kbd>Owner *</kbd></td>
+											<td>PSP or Identity</td>
+											<td>PSP</td>
+										</tr>
+										<tr>
+											<td><kbd>Identity</kbd></td>
+											<td>Название Identity</td>
+											<td>Test_merchant</td>
+										</tr>
+										<tr>
+											<td><kbd>Name *</kbd></td>
+											<td>Название платежных деталей</td>
+											<td>test_account</td>
+										</tr>
+										<tr>
+											<td><kbd>Content *</kbd></td>
+											<td>Поле для записи</td>
+											<td>TEST</td>
+										</tr>
+										
+									</tbody>
+								</table>
+					
+					<h4><strong>После настройки фильтров нажмите на кнопку <i class="fa fa-hand-o-right"></i> <img src ="Run.PNG" class="img-thumbnail"></strong></h4><br>
+					
+					
+								
+								<div class="alert alert-info mod">
+									<p><i class="fa fa-cog"></i><strong> Детали:</strong></p>
+									<p><i class="fa fa-pencil"></i> Update - изменение.</p>
+									<p><i class="fa fa-eye"></i> View details - просмотр деталей.</p>
+                                    <p><i class="fa fa-user"></i> View audit log - лог изменений.</p>									
+								</div><br>
+					
+						</div>
+					</div>
+				</div>
+			
+			
+				
+				</div>
+			</div>	
+		</div>
+</div>		
+ </body>
+</html>

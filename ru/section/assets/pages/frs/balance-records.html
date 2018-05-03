@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Balance Records</title>
+
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../../css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/bootstrap.min.js"></script>
+		<script src="../../js/menu.js"></script>
+		<script type="text/javascript" src="../../js/pageUP.js"></script>
+		<link rel="shortcut icon" href="../../img/maxpay.ico" type="image/x-icon">
+		<link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+		<link rel="stylesheet" href="../../css/style.css">
+		
+		
+	</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				
+				<li><a href="../../../section-frs.html" title="Back to FRS section" onmouseover="this.style.color='#5356ac';" 
+				onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-long-arrow-left"></i></a></li>	
+				
+			
+				<li><a href="../../../../tutorial.html" title="Home"
+				onmouseover="this.style.color='#5356ac';" onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-home"></i></a></li>
+				
+				<li><a href="#" onclick="openNav()" title="Menu" onmouseover="this.style.color='#5356ac';" onmouseout="this.style.color='#24B47E';"
+				style="color:#24B47E;">
+				<i class="fa fa-bars"></i></a></li>
+			</ul>
+		</div>
+		
+		<div id="mySidenav" class="sidenav"><br>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" title="Close">&times;</a>
+					
+					<!-- Gate-->
+					<a href="../../../section-gate.html" title="Gate"><i class="fa fa-lg fa-fw fa-cube"></i> Gate </a>
+					<!-- User Management -->
+					<a href="../../../section-user-management.html"  title="User Management"><i class="fa fa-lg fa-fw fa-user"></i>User Management </a>
+					<!-- Reports -->
+					<a href="../../../section-reports.html"  title="Reports"><i class="fa fa-lg fa-fw fa-th-list"></i> Reports </a>					
+					<!-- MMS -->				
+					<a href="../../../section-mms.html"  title="Mms"><i class="fa fa-lg fa-fw fa-maxcdn"></i> Mms </a>				
+					<!-- HPP -->					
+					<a href="../../../section-hpp.html"  title="Hpp"><i class="fa fa-lg fa-fw fa-retweet"></i> Hpp </a>
+					<!-- Shared Tokens -->
+					<a href="../../../section-shared-tokens.html"  title="Shared Tokens"><i class="fa fa-lg fa-fw fa-retweet"></i> Shared Tokens</a>					
+					<!-- Routes -->					
+					<a href="../../../section-routes.html"  title="Routes"><i class="fa fa-lg fa-fw fa-recycle"></i> Routes</a>
+					<!-- Cascading -->					
+					<a href="../../../section-cascading.html"  title="Cascading"><i class="fa fa-lg fa-fw fa-share-alt"></i> Cascading </a>	
+					<!--FRS-->
+					<a href="../../../section-frs.html"  title="FRS"><i class="fa fa-lg fa-fw fa-random"></i> FRS </a>
+					<!-- References -->						
+					<a href="../../../section-references.html"  title="References"><i class="fa fa-lg fa-fw fa-arrows-alt"></i> References </a>
+					<!-- Tools -->					
+					<a href="../../../section-tools.html"  title="Tools"><i class="fa fa-lg fa-fw fa-cogs"></i> Tools </a>			
+					<!-- Logs -->					
+					<a href="../../../section-logs.html"  title="Logs"><i class="fa fa-lg fa-fw fa-calendar"></i> Logs </a>
+			</div>				
+</nav><br>
+
+<div id="main">
+		<div class="container">
+			
+			<ul class="nav nav-tabs">
+				
+				<li class="active"><a data-toggle="tab" href="#mid-create">
+					<i class="fa fa-lg fa-fw fa-plus-square" style="color:#799fec;"></i> Create</a>
+				</li>
+				<li ><a data-toggle="tab" href="#mid-list">
+					<i class="fa fa-lg fa-fw fa-th-list" style="color:#799fec;"></i> List</a>
+				<li ><a data-toggle="tab" href="#mid-calc">
+					<i class="fa fa-lg fa-fw fa-refresh" style="color:#799fec;"></i> Calculate</a>
+				
+			</ul>
+			
+			<div class="tab-content">
+				<!--Enter information about Mid Create -->
+				<div id="mid-create" class="tab-pane fade in active">
+					<div class="panel panel-primary" style="border: none;">
+						<div class="panel-heading" style="background-color:#799fec; border:0;">
+							<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> FRS <i class="fa fa-angle-double-right"></i> Balance Records <i class="fa fa-angle-double-right"></i> Create</span> 
+						</div>
+						<div class="panel-body">
+					
+						<div class="alert alert-info">
+							<p><i class="fa fa-info-circle"></i><strong> Назначение:</strong></p>
+							<p>Данный раздел позволяет создать балансовые записи вручную.</p>
+						</div>
+					
+						<h4><strong>Для создания балансовой записи заполните поля <i class="fa fa-hand-o-down"></i></strong></h4><br>
+					
+						<table class="table table-hover table-bordered">
+									<thead>
+										<tr>
+											<th>Field</th>
+											<th>Description</th>
+											<th>Example</th>
+										</tr>
+									</thead>
+									<tbody>
+									    <tr>
+											<td><kbd>Identity *</kbd></td>
+											<td>Прежде настроенные правила для комиссий </td>
+											<td>Test_merchant</td>
+										</tr>
+										<tr>
+											<td><kbd>Merchant *</kbd></td>
+											<td>Имя Мерчанта в админ панели</td>
+											<td>Test_merchant</td>
+										</tr>
+										<tr>
+											<td><kbd>Merchant Account</kbd></td>
+											<td>Аккаунт мерчанта в админ панели</td>
+											<td>test_account</td>
+										</tr>
+										<tr>
+											<td><kbd>Bank</kbd></td>
+											<td>Название банка</td>
+											<td>Be2bill</td>
+										</tr>
+										
+										<tr>
+											<td><kbd>MID</kbd></td>
+											<td>Название мида в админ панели</td>
+											<td>test_mid</td>
+										</tr>
+										<tr>
+											<td><kbd>Wallet *</kbd></td>
+											<td>Кошельки мерчанта</td>
+											<td>Be2bill</td>
+										</tr>
+										<tr>
+											<td><kbd>Billing Date *</kbd></td>
+											<td>Дата балансовой записи</td>
+											<td>2018/04/17 00:00</td>
+										</tr>
+										<tr>
+											<td><kbd>Amount *</kbd></td>
+											<td>Сумма записи</td>
+											<td>10</td>
+										</tr>
+										<tr>
+											<td><kbd>Currency *</kbd></td>
+											<td>Валюта записи</td>
+											<td>USD</td>
+										</tr>
+										<tr>
+											<td><kbd>Origin *</kbd></td>
+											<td>Ручная запись или корректировка</td>
+											<td>Manual</td>
+										</tr>
+										<tr>
+											<td><kbd>Fee Rule</kbd></td>
+											<td>Комиссионные правила в identity</td>
+											<td>Rule_for_sale</td>
+										</tr>
+										<tr>
+											<td><kbd>Type *</kbd></td>
+											<td>Debit или Credit</td>
+											<td>Debit</td>
+										</tr>
+										<tr>
+											<td><kbd>Test Mode *</kbd></td>
+											<td>Yes|No</td>
+											<td>Yes</td>
+										</tr>
+										<tr>
+											<td><kbd>Paid</kbd></td>
+											<td>Yes|No</td>
+											<td>No</td>
+										</tr>
+										<tr>
+											<td><kbd>Penalty</kbd></td>
+											<td>Yes|No</td>
+											<td>DescTestMerchant</td>
+										</tr>
+										<tr>
+											<td><kbd>Comments *</kbd></td>
+											<td>Ваш комментарий</td>
+											<td>***</td>
+										</tr>
+										<tr>
+											<td><kbd>Documents</kbd></td>
+											<td>Прикрепить invoice</td>
+											<td>Live gate</td>
+										</tr>
+										
+									</tbody>
+								</table><br>
+					
+							<div class="alert alert-warning">
+								<p><i class="fa fa-exclamation-triangle"></i><strong> Заметка |</strong> Всегда заполняйте поля помеченные *</p>
+							</div>
+						
+							<h4><strong>По завершению нажмите на кнопку <i class="fa fa-hand-o-right"></i> <img src ="Save.PNG" class="img-thumbnail"></strong></h4><br><br>
+								
+								
+						</div>
+					</div>
+				</div>
+				
+				<div id="mid-calc" class="tab-pane fade">
+					<div class="panel panel-primary" style="border: none;">
+						<div class="panel-heading" style="background-color:#799fec; border:0;">
+							<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> FRS <i class="fa fa-angle-double-right"></i> Balance Records <i class="fa fa-angle-double-right"></i> Calculate</span> 
+						</div>
+						<div class="panel-body">
+					
+						<div class="alert alert-info">
+							<p><i class="fa fa-info-circle"></i><strong> Назначение:</strong></p>
+							<p>Данная секция позволяет пересчитать комиссии, если они были изменены либо добавлены новые.</p>
+						</div>
+					
+						<h4><strong>Заполните поля для пересчета комиссий<i class="fa fa-hand-o-down"></i></strong></h4><br>
+					
+						<table class="table table-hover table-bordered">
+									<thead>
+										<tr>
+											<th>Field</th>
+											<th>Description</th>
+											<th>Example</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><kbd>Identity *</kbd></td>
+											<td>Прежде настроенные комиссионные правила</td>
+											<td>Test_merchant</td>
+										</tr>
+										<tr>
+											<td><kbd>Fee</kbd></td>
+											<td>Комиссии в identity</td>
+											<td>test_rule_payout</td>
+										</tr>
+										<tr>
+											<td><kbd>Start Date *</kbd></td>
+											<td>Дата начала</td>
+											<td>2018/04/17 00:00</td>
+										</tr>
+										
+										<tr>
+											<td><kbd>Finish Date *</kbd></td>
+											<td>Дата конца</td>
+											<td>2018/04/27 00:00</td>
+										</tr>
+										<tr>
+											<td><kbd>Strategy *</kbd></td>
+											<td>Текущие или исторические</td>
+											<td>Historical</td>
+										</tr>
+										<tr>
+											<td><kbd>Entity *</kbd></td>
+											<td>Тип комиссии</td>
+											<td>Recurring fee</td>
+										</tr>
+									    <tr>
+											<td><kbd>Apply Balance Delta *</kbd></td>
+											<td>Yes|No</td>
+											<td>Yes</td>
+										</tr>
+									</tbody>
+								</table><br>
+					
+							<div class="alert alert-warning">
+								<p><i class="fa fa-exclamation-triangle"></i><strong> Заметка |</strong> Всегда заполняйте поля отмеченные *</p>
+							</div>
+						
+							<h4><strong>После заполнения нажмите на кнопку <i class="fa fa-hand-o-right"></i> <img src ="Calc.PNG" class="img-thumbnail"></strong></h4><br><br>
+								
+								
+					
+							
+						</div>
+					</div>
+				</div>
+				
+				
+				<!--Enter information about Mid List -->
+				<div id="mid-list" class="tab-pane fade">
+					<div class="panel panel-primary" style="border: none;">
+						<div class="panel-heading" style="background-color:#799fec; border:0;">
+							<span class="way"><i class="fa fa-share"></i> Section: Home <i class="fa fa-angle-double-right"></i> FRS <i class="fa fa-angle-double-right"></i> Balance records <i class="fa fa-angle-double-right"></i> List</span>  
+						</div>
+						<div class="panel-body">
+					
+							<div class="alert alert-info">
+								<p><i class="fa fa-info-circle"></i><strong> Назначение:</strong></p>
+								<p>Данный раздел позволяет найти балансовые записи. Также, если комиссии были изменены, функция "Recalculate" позволяет отменить и пересчитать балансовые записи</p>
+							</div>
+					
+							<h4><strong>Настройте фильтры для поиска <i class="fa fa-hand-o-down"></i></strong></h4><br>	
+						
+							<table class="table table-hover table-bordered">
+									<thead>
+										<tr>
+											<th>Field</th>
+											<th>Description</th>
+											<th>Sample</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><kbd>Identity *</kbd></td>
+											<td>Прежде настроенные комиссионные правила</td>
+											<td>Test_merchant</td>
+										</tr>
+										<tr>
+											<td><kbd>Without Invoice</kbd></td>
+											<td>Подключать "Invoice"</td>
+											<td>Yes|No</td>
+										</tr>
+										<tr>
+											<td><kbd>Invoice</kbd></td>
+											<td>Выберите из списка</td>
+											<td>All</td>
+										</tr>
+										<tr>
+											<td><kbd>Wallet</kbd></td>
+											<td>Выберите кошелек</td>
+											<td>Bank_fee</td>
+										</tr>
+										<tr>
+											<td><kbd>Condition</kbd></td>
+											<td>Дополнительные кондиции</td>
+											<td>Billing Date</td>
+										</tr>
+										
+									</tbody>
+								</table>
+					
+					<h4><strong>После настройки фильтров нажмите на кнопку <i class="fa fa-hand-o-right"></i> <img src ="Run.PNG" class="img-thumbnail">  Или необходимое действие  <i class="fa fa-hand-o-right"><img src ="Buttons.PNG" class="img-thumbnail"></i></strong></h4><br>
+					
+					
+								
+								<div class="alert alert-info mod">
+									<p><i class="fa fa-cog"></i><strong> Детали:</strong></p>
+									<p><i class="fa fa-pencil"></i> Update - Позволяет изменить настройки.</p>
+									<p><i class="fa fa-eye"></i> View details - Просмотр деталей записи.</p>
+                                    <p><i class="fa fa-user"></i> View audit log - Лог изменений.</p>									
+								</div><br>
+					
+						</div>
+					</div>
+				</div>
+			
+			
+				
+				</div>
+			</div>	
+		</div>
+</div>		
+ </body>
+</html>
